@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="QL_MVALab.View.WelcomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <!-- Dùng Resource pack URI cho chắc -->
+        <Image Source="C:\Users\GenG_Hinna\source\repos\QL_MVALab\QL_MVALab\Image\Banner.jpg"
+               Stretch="UniformToFill" />
+    </Grid>
+    <!--Source="C:\Users\GenG_Hinna\source\repos\QL_MVALab\QL_MVALab\Image\ảnh banner.jpg"-->
+    <!--Source="C:\Users\GenG_Hinna\source\repos\QL_MVALab\QL_MVALab\Image\Banner.jpg"-->
+</UserControl>
