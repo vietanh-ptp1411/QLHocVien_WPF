@@ -49,6 +49,7 @@ namespace QL_MVALab.ViewModel
                 NgayBatDau = value.NgayBatDau;
                 NgayKetThuc = value.NgayKetThuc;
                 SiSo = value.SiSo;
+                LichHoc = value.LichHoc;
             }
         }
 
@@ -83,6 +84,9 @@ namespace QL_MVALab.ViewModel
 
         private int _siSo = 1;
         public int SiSo { get => _siSo; set { _siSo = value; OnPropertyChanged(); } }
+
+        private string _LichHoc = "";
+        public string LichHoc { get => _LichHoc; set { _LichHoc = value; OnPropertyChanged(); } }
 
         // Tìm kiếm
         private string? _search;
@@ -137,7 +141,7 @@ namespace QL_MVALab.ViewModel
                 }
 
                 // Load Lớp học - thử không dùng JOIN trước
-                string simpleSQL = "SELECT Id, TenLop, KhoaHocID, GiangVienID, NgayBatDau, NgayKetThuc, SiSo FROM dbo.LopHoc ORDER BY Id ASC";
+                string simpleSQL = "SELECT Id, TenLop, KhoaHocID, GiangVienID, NgayBatDau, NgayKetThuc, SiSo, LichHoc FROM dbo.LopHoc ORDER BY Id ASC";
                 var dt = Connect.DataTransport(simpleSQL);
 
                 LopHocList.Clear();
@@ -151,14 +155,15 @@ namespace QL_MVALab.ViewModel
                         GiangVienId = Convert.ToInt32(r["GiangVienID"]),
                         NgayBatDau = Convert.ToDateTime(r["NgayBatDau"]),
                         NgayKetThuc = Convert.ToDateTime(r["NgayKetThuc"]),
-                        SiSo = Convert.ToInt32(r["SiSo"])
+                        SiSo = Convert.ToInt32(r["SiSo"]),
+                        LichHoc = r["LichHoc"]?.ToString() ?? ""
                     };
 
                     // Tìm tên khóa học và giảng viên từ collections đã load
                     var khoaHoc = KhoaHocList.FirstOrDefault(k => k.Id == lopHoc.KhoaHocId);
                     var giangVien = GiangVienList.FirstOrDefault(g => g.Id == lopHoc.GiangVienId);
 
-                    lopHoc.TenKhoaHoc = khoaHoc?.TenKhoaHoc ?? "Không tìm thấy";
+                    lopHoc.TenKhoaHoc = khoaHoc?.TenKhoa ?? "Không tìm thấy";
                     lopHoc.TenGiangVien = giangVien?.HoTen ?? "Không tìm thấy";
 
                     LopHocList.Add(lopHoc);
@@ -178,7 +183,7 @@ namespace QL_MVALab.ViewModel
             try
             {
                 // Thử câu SQL đơn giản trước
-                string sql = "SELECT Id, TenKhoaHoc FROM dbo.KhoaHoc ORDER BY TenKhoaHoc";
+                string sql = "SELECT Id, TenKhoa FROM dbo.KhoaHoc ORDER BY TenKhoa";
                 var dt = Connect.DataTransport(sql);
 
                 KhoaHocList.Clear();
@@ -187,22 +192,14 @@ namespace QL_MVALab.ViewModel
                     KhoaHocList.Add(new KhoaHocModel
                     {
                         Id = Convert.ToInt32(r["Id"]),
-                        TenKhoaHoc = r["TenKhoaHoc"]?.ToString() ?? "",
-                        // Các field khác để mặc định
-                        MoTa = "",
-                        NgayBatDau = DateTime.Now,
-                        NgayKetThuc = DateTime.Now,
-                        HocPhi = 0
+                        TenKhoa = r["TenKhoa"]?.ToString() ?? ""
                     });
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi tải danh sách khóa học: {ex.Message}\n\nVui lòng kiểm tra bảng KhoaHoc có tồn tại với cột Id, TenKhoaHoc",
+                MessageBox.Show($"Lỗi tải danh sách khóa học: {ex.Message}\n\nVui lòng kiểm tra bảng KhoaHoc có tồn tại với cột Id, TenKhoa",
                     "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
-
-                // Thêm dữ liệu mẫu để test
-                KhoaHocList.Add(new KhoaHocModel { Id = 1, TenKhoaHoc = "Khóa học mẫu" });
             }
         }
 
@@ -220,12 +217,7 @@ namespace QL_MVALab.ViewModel
                     GiangVienList.Add(new GiangVienModel
                     {
                         Id = Convert.ToInt32(r["Id"]),
-                        HoTen = r["HoTen"]?.ToString() ?? "",
-                        // Các field khác để mặc định
-                        Email = "",
-                        DienThoai = "",
-                        ChuyenMon = "",
-                        TrangThai = true
+                        HoTen = r["HoTen"]?.ToString() ?? ""
                     });
                 }
             }
@@ -256,10 +248,10 @@ namespace QL_MVALab.ViewModel
                 if (SelectedKhoaHoc == null || SelectedGiangVien == null) return;
 
                 string sql = $@"
-                            INSERT INTO dbo.LopHoc (TenLop, KhoaHocID, GiangVienID, NgayBatDau, NgayKetThuc, SiSo)
+                            INSERT INTO dbo.LopHoc (TenLop, KhoaHocID, GiangVienID, NgayBatDau, NgayKetThuc, SiSo, LichHoc)
                             VALUES (N'{Esc(TenLop)}', {SelectedKhoaHoc.Id}, {SelectedGiangVien.Id},
                                     '{NgayBatDau:yyyy-MM-dd}', '{NgayKetThuc:yyyy-MM-dd}',
-                                    {SiSo});";
+                                    {SiSo},N'{Esc(LichHoc)}')";
 
                 int n = Connect.DataExcution(sql);
                 if (n > 0)
@@ -299,7 +291,8 @@ namespace QL_MVALab.ViewModel
                                 GiangVienID = {SelectedGiangVien.Id},
                                 NgayBatDau = '{NgayBatDau:yyyy-MM-dd}',
                                 NgayKetThuc = '{NgayKetThuc:yyyy-MM-dd}',
-                                SiSo = {SiSo}
+                                SiSo = {SiSo},
+                                LichHoc =  N'{Esc(LichHoc)}'
                                 WHERE Id = {Id.Value};";
 
                 int n = Connect.DataExcution(sql);
@@ -362,8 +355,9 @@ namespace QL_MVALab.ViewModel
                     (h.TenLop?.ToLower().Contains(kw) ?? false) ||
                     (h.TenKhoaHoc?.ToLower().Contains(kw) ?? false) ||
                     (h.TenGiangVien?.ToLower().Contains(kw) ?? false) ||
+                    (h.LichHoc?.ToLower().Contains(kw) ?? false)||
                     h.Id.ToString().Contains(kw) ||
-                    h.SiSo.ToString().Contains(kw))
+                    h.SiSo.ToString().Contains(kw))          
                 .ToList();
             FilteredLopHocList = new ObservableCollection<LopHocModel>(rs);
         }
@@ -377,6 +371,7 @@ namespace QL_MVALab.ViewModel
             NgayBatDau = DateTime.Now;
             NgayKetThuc = DateTime.Now.AddMonths(3);
             SiSo = 1;
+            LichHoc = "";
             SelectedLopHoc = null;
         }
 

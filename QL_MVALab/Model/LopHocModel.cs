@@ -15,6 +15,7 @@ namespace QL_MVALab.Model
         public DateTime NgayBatDau { get; set; }
         public DateTime NgayKetThuc { get; set; }
         public int SiSo { get; set; }
+        public string LichHoc { get; set; } = "";
         public string TenKhoaHoc { get; set; } = "";
         public string TenGiangVien { get; set; } = "";
 

@@ -158,6 +158,9 @@
 
                         <Label Content="Sĩ số *" />
                         <TextBox Text="{Binding SiSo, UpdateSourceTrigger=PropertyChanged}" />
+                            
+                        <Label Content="Lịch học" />
+                        <TextBox Text="{Binding LichHoc, UpdateSourceTrigger=PropertyChanged}" />
 
                         <!-- Nút thao tác -->
                         <StackPanel Orientation="Horizontal"
@@ -281,17 +284,19 @@
 
                     <DataGridTextColumn Header="Tên lớp"
                                         Binding="{Binding TenLop}"
-                                        MinWidth="120"
+                                        MinWidth="100"
                                         ElementStyle="{StaticResource CellText}" />
 
                     <DataGridTextColumn Header="Khóa học"
                                         Binding="{Binding TenKhoaHoc}"
                                         MinWidth="150"
+                                        Width="*"
                                         ElementStyle="{StaticResource CellText}" />
 
                     <DataGridTextColumn Header="Giảng viên"
                                         Binding="{Binding TenGiangVien}"
                                         MinWidth="150"
+                                        Width="*"
                                         ElementStyle="{StaticResource CellText}" />
 
                     <DataGridTextColumn Header="Ngày bắt đầu"
@@ -315,6 +320,11 @@
                     <DataGridTextColumn Header="Sĩ số"
                                         Binding="{Binding SiSo}"
                                         MinWidth="60"
+                                        ElementStyle="{StaticResource CenterCell}" />
+                    
+                    <DataGridTextColumn Header="Lịch học"
+                                        Binding="{Binding LichHoc}"
+                                        MinWidth="70"
                                         ElementStyle="{StaticResource CenterCell}" />
                 </DataGrid.Columns>
             </DataGrid>

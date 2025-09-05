@@ -9,14 +9,14 @@ namespace QL_MVALab.Model
     public class KhoaHocModel
     {
         public int Id { get; set; }
-        public string TenKhoaHoc { get; set; } = "";
+        public string TenKhoa { get; set; } = "";
         public string MoTa { get; set; } = "";
-        public DateTime NgayBatDau { get; set; }
-        public DateTime NgayKetThuc { get; set; }
-        public decimal HocPhi { get; set; }
+        public decimal DonGia10Buoi { get; set; }
+        public int TongSoBuoi { get; set; }
+        public bool TrangThai { get; set; } = true;
 
         // Display property for ComboBox
-        public string DisplayText => $"{Id} - {TenKhoaHoc}";
+        public string DisplayText => $"{Id} - {TenKhoa}";
 
         public override string ToString()
         {

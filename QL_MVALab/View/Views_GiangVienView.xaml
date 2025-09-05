@@ -295,12 +295,14 @@
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <Border x:Name="pill"
-                                        Padding="8,2"
-                                        CornerRadius="12"
+                                        Padding="8,5"
+                                        Margin="10 5"
+                                        CornerRadius="5"
                                         HorizontalAlignment="Center"
                                         Background="#E8F5E9"
                                         BorderThickness="1"
-                                        BorderBrush="#C8E6C9">
+                                        BorderBrush="#C8E6C9"
+                                        Height="Auto">
                                     <TextBlock x:Name="txt"
                                                FontWeight="SemiBold"
                                                TextAlignment="Center"

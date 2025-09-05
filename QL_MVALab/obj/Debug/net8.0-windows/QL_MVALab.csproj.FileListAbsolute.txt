@@ -163,3 +163,4 @@ C:\Users\GenG_Hinna\source\repos\QL_MVALab\QL_MVALab\obj\Debug\net8.0-windows\re
 C:\Users\GenG_Hinna\source\repos\QL_MVALab\QL_MVALab\obj\Debug\net8.0-windows\QL_MVALab.pdb
 C:\Users\GenG_Hinna\source\repos\QL_MVALab\QL_MVALab\obj\Debug\net8.0-windows\QL_MVALab.genruntimeconfig.cache
 C:\Users\GenG_Hinna\source\repos\QL_MVALab\QL_MVALab\obj\Debug\net8.0-windows\ref\QL_MVALab.dll
+C:\Users\GenG_Hinna\source\repos\QL_MVALab\QL_MVALab\obj\Debug\net8.0-windows\QL_MVALab.sourcelink.json

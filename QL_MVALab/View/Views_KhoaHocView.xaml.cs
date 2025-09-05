@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QL_MVALab.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace QL_MVALab.View
         public Views_KhoaHocView()
         {
             InitializeComponent();
+            this.DataContext = new KhoaHocViewModels();
         }
     }
 }
