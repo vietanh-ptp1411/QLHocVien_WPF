@@ -8,7 +8,6 @@ namespace QL_MVALab.Model
     public class HocVienModel
     {
         public int Id { get; set; }                 // identity
-        public string MaHocVien { get; set; } = "";
         public string HoTen { get; set; } = "";
         public string? NamSinh { get; set; }
         public string Email { get; set; } = "";

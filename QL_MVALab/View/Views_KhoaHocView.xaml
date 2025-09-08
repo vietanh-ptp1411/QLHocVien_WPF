@@ -286,6 +286,7 @@
                                               Height="50">
                                     <TextBlock Text="{Binding MoTa}"
                                                TextWrapping="Wrap"
+                                               VerticalAlignment="Center"
                                                Padding="6,2" />
                                 </ScrollViewer>
                             </DataTemplate>

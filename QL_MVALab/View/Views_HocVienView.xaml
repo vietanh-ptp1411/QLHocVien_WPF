@@ -123,9 +123,6 @@
                                        Margin="5,5,0,0" />
                         </StackPanel>
 
-                        <Label Content="Mã học viên *" />
-                        <TextBox Text="{Binding MaHocVien, UpdateSourceTrigger=PropertyChanged}" />
-
                         <Label Content="Họ tên *" />
                         <TextBox Text="{Binding HoTen, UpdateSourceTrigger=PropertyChanged}" />
 
@@ -265,11 +262,6 @@
                                    BasedOn="{StaticResource CenterCell}" />
                         </DataGridTextColumn.ElementStyle>
                     </DataGridTextColumn>
-
-                    <DataGridTextColumn Header="Mã HV"
-                                        Binding="{Binding MaHocVien}"
-                                        MinWidth="50"
-                                        ElementStyle="{StaticResource CellText}" />
 
                     <DataGridTextColumn Header="Họ tên"
                                         Binding="{Binding HoTen}"

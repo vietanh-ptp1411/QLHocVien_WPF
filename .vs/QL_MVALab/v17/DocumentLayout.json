@@ -3,12 +3,107 @@
   "WorkspaceRootPath": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\model\\diemdanhmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\diemdanhmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_diemdanhview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_diemdanhview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\viewmodel\\diemdanhviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\diemdanhviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\viewmodel\\buoihocviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\buoihocviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\viewmodel\\dangkyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\dangkyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_dangkyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_dangkyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_dangkyview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_dangkyview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_diemdanhview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_diemdanhview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\model\\dangkymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\dangkymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_khoahocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_khoahocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_khoahocview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_khoahocview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\viewmodel\\hocvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\hocvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_hocvienview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_hocvienview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GenG_Hinna\\AppData\\Local\\SourceServer\\c25579fa6fdb4447e21d884994e3a84a23033db70e08e286a337edafdcebf71f\\QL_MVALab\\ViewModel\\HocVienViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_hocvienview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_hocvienview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\model\\hocvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\hocvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_buoihocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_buoihocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\model\\buoihocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\buoihocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_buoihocview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_buoihocview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_giangvienview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_giangvienview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_hocphiview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_hocphiview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_lophocview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_lophocview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\welcomeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\welcomeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\viewmodel\\giangvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\giangvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_hocphiview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -23,68 +118,16 @@
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\hocphimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_buoihocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_buoihocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\viewmodel\\buoihocviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\buoihocviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\model\\buoihocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\buoihocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\viewmodel\\dangkyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\dangkyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\welcomeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\welcomeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\viewmodel\\hocvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\hocvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\viewmodel\\diemdanhviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\diemdanhviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\viewmodel\\giangvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\giangvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\model\\dangkymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\dangkymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_dangkyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_dangkyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_diemdanhview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_diemdanhview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\model\\giangvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\giangvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\model\\hocvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\hocvienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\model\\lophocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\lophocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_buoihocview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_buoihocview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,20 +169,8 @@
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\welcomeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\welcomeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_hocphiview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_hocphiview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\viewmodel\\khoahocviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\khoahocviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_lophocview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_lophocview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_lophocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -150,16 +181,8 @@
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_giangvienview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_hocvienview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_hocvienview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_dangkyview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_dangkyview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\model\\khoahocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -168,22 +191,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\obj\\Debug\\net8.0-windows\\View\\Views_LopHocView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QL_MVALab\\obj\\Debug\\net8.0-windows\\View\\Views_LopHocView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_khoahocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_khoahocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_giangvienview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_giangvienview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_khoahocview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_khoahocview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\view\\views_hocvienview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_hocvienview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|c:\\users\\geng_hinna\\source\\repos\\ql_mvalab\\ql_mvalab\\connectdatabase\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -197,198 +204,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BuoiHocViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\BuoiHocViewModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\BuoiHocViewModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\BuoiHocViewModel.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\BuoiHocViewModel.cs",
-              "ViewState": "AgIAABgBAAAAAAAAAAAQwCwBAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T04:36:37.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BuoiHocModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\BuoiHocModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\Model\\BuoiHocModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\BuoiHocModel.cs",
-              "RelativeToolTip": "QL_MVALab\\Model\\BuoiHocModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T07:18:12.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HocPhiModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\HocPhiModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\Model\\HocPhiModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\HocPhiModel.cs",
-              "RelativeToolTip": "QL_MVALab\\Model\\HocPhiModel.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAmwCoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T07:12:39.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Views_BuoiHocView.xaml",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_BuoiHocView.xaml",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_BuoiHocView.xaml",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_BuoiHocView.xaml",
-              "RelativeToolTip": "QL_MVALab\\View\\Views_BuoiHocView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-07T04:36:08.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Views_HocPhiView.xaml",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_HocPhiView.xaml",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_HocPhiView.xaml",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_HocPhiView.xaml",
-              "RelativeToolTip": "QL_MVALab\\View\\Views_HocPhiView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-03T07:56:30.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DiemDanhModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\DiemDanhModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\Model\\DiemDanhModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\DiemDanhModel.cs",
-              "RelativeToolTip": "QL_MVALab\\Model\\DiemDanhModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T10:23:45.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "QL_MVALab\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\MainWindow.xaml",
-              "RelativeToolTip": "QL_MVALab\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-02T17:02:50.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HocPhiViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\HocPhiViewModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\HocPhiViewModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\HocPhiViewModel.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\HocPhiViewModel.cs",
-              "ViewState": "AgIAAOgAAAAAAAAAAAAkwCkBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:38:38.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DangKyViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\DangKyViewModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\DangKyViewModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\DangKyViewModel.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\DangKyViewModel.cs",
-              "ViewState": "AgIAAEcBAAAAAAAAAAAAAFoBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:38:29.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HocVienViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\HocVienViewModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\HocVienViewModel.cs",
-              "ViewState": "AgIAAMgAAAAAAAAAAAAqwN8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:38:02.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WelcomeView.xaml",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\WelcomeView.xaml",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\WelcomeView.xaml",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\WelcomeView.xaml",
-              "RelativeToolTip": "QL_MVALab\\View\\WelcomeView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-03T09:03:23.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\MainViewModel.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:37:53.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "DiemDanhViewModel.cs",
               "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\DiemDanhViewModel.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\DiemDanhViewModel.cs",
               "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\DiemDanhViewModel.cs",
               "RelativeToolTip": "QL_MVALab\\ViewModel\\DiemDanhViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAkwPYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T04:36:57.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GiangVienViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAYwBMAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:38:46.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DangKyModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\DangKyModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\Model\\DangKyModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\DangKyModel.cs",
-              "RelativeToolTip": "QL_MVALab\\Model\\DangKyModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T07:16:04.677Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 5,
               "Title": "Views_DangKyView.xaml",
               "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_DangKyView.xaml",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_DangKyView.xaml",
@@ -399,7 +231,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 4,
+              "Title": "DangKyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\DangKyViewModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\DangKyViewModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\DangKyViewModel.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\DangKyViewModel.cs",
+              "ViewState": "AgIAABECAAAAAAAAAAA4wPACAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:38:29.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Views_DiemDanhView.xaml",
               "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_DiemDanhView.xaml",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_DiemDanhView.xaml",
@@ -410,210 +254,209 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GiangVienModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\GiangVienModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\Model\\GiangVienModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\GiangVienModel.cs",
-              "RelativeToolTip": "QL_MVALab\\Model\\GiangVienModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAApwBMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DiemDanhModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\DiemDanhModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\Model\\DiemDanhModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\DiemDanhModel.cs",
+              "RelativeToolTip": "QL_MVALab\\Model\\DiemDanhModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T02:59:28.207Z"
+              "WhenOpened": "2025-09-06T10:23:45.544Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 3,
+              "Title": "BuoiHocViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\BuoiHocViewModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\BuoiHocViewModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\BuoiHocViewModel.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\BuoiHocViewModel.cs",
+              "ViewState": "AgIAAD4BAAAAAAAAAAAowEwBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T04:36:37.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Views_DangKyView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_DangKyView.xaml.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_DangKyView.xaml.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_DangKyView.xaml.cs",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_DangKyView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T08:06:52.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Views_DiemDanhView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_DiemDanhView.xaml.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_DiemDanhView.xaml.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_DiemDanhView.xaml.cs",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_DiemDanhView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T03:19:29.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DangKyModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\DangKyModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\Model\\DangKyModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\DangKyModel.cs",
+              "RelativeToolTip": "QL_MVALab\\Model\\DangKyModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T07:16:04.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Views_KhoaHocView.xaml",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_KhoaHocView.xaml",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_KhoaHocView.xaml",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_KhoaHocView.xaml",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_KhoaHocView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-03T07:55:47.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Views_KhoaHocView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T09:15:48.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HocVienViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\HocVienViewModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\HocVienViewModel.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAADwv44AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:38:02.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Views_HocVienView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_HocVienView.xaml.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_HocVienView.xaml.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_HocVienView.xaml.cs",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_HocVienView.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T08:20:22.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Views_HocVienView.xaml",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_HocVienView.xaml",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_HocVienView.xaml",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_HocVienView.xaml",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_HocVienView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-03T07:53:45.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "HocVienModel.cs",
               "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\HocVienModel.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\Model\\HocVienModel.cs",
               "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\HocVienModel.cs",
               "RelativeToolTip": "QL_MVALab\\Model\\HocVienModel.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwAkAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T11:00:45.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LopHocModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\LopHocModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\Model\\LopHocModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\LopHocModel.cs",
-              "RelativeToolTip": "QL_MVALab\\Model\\LopHocModel.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADwvx0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "HocVienViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\AppData\\Local\\SourceServer\\c25579fa6fdb4447e21d884994e3a84a23033db70e08e286a337edafdcebf71f\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\c25579fa6fdb4447e21d884994e3a84a23033db70e08e286a337edafdcebf71f\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\AppData\\Local\\SourceServer\\c25579fa6fdb4447e21d884994e3a84a23033db70e08e286a337edafdcebf71f\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\c25579fa6fdb4447e21d884994e3a84a23033db70e08e286a337edafdcebf71f\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAswGAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T04:05:04.463Z"
+              "WhenOpened": "2025-09-08T05:02:12.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 16,
+              "Title": "Views_BuoiHocView.xaml",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_BuoiHocView.xaml",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_BuoiHocView.xaml",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_BuoiHocView.xaml",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_BuoiHocView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-07T04:36:08.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Views_BuoiHocView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_BuoiHocView.xaml.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_BuoiHocView.xaml.cs",
               "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_BuoiHocView.xaml.cs",
               "RelativeToolTip": "QL_MVALab\\View\\Views_BuoiHocView.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAnwBkAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T08:50:44.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\MainWindow.xaml.cs",
-              "RelativeToolTip": "QL_MVALab\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "BuoiHocModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\BuoiHocModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\Model\\BuoiHocModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\BuoiHocModel.cs",
+              "RelativeToolTip": "QL_MVALab\\Model\\BuoiHocModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T17:02:47.285Z"
+              "WhenOpened": "2025-09-06T07:18:12.128Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "NavItem.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\NavItem.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\NavItem.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\NavItem.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\NavItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "Views_GiangVienView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_GiangVienView.xaml.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_GiangVienView.xaml.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_GiangVienView.xaml.cs",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_GiangVienView.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T08:51:21.973Z"
+              "WhenOpened": "2025-09-05T02:56:50.485Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAABIVAAAAAAAAAAAQwBEVAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-09-07T09:29:34.529Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LopHocViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\LopHocViewModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\LopHocViewModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\LopHocViewModel.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\LopHocViewModel.cs",
-              "ViewState": "AgIAAGIBAAAAAAAAAAAkwP0AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:38:11.075Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\LoginWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "QL_MVALab\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAUwBcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T08:13:43.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "QL_MVALab\\LoginWindow.xaml",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\LoginWindow.xaml",
-              "RelativeToolTip": "QL_MVALab\\LoginWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-03T08:11:26.931Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\App.xaml",
-              "RelativeDocumentMoniker": "QL_MVALab\\App.xaml",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\App.xaml",
-              "RelativeToolTip": "QL_MVALab\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-03T07:40:47.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\AssemblyInfo.cs",
-              "RelativeToolTip": "QL_MVALab\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T11:04:00.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\App.xaml.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\App.xaml.cs",
-              "RelativeToolTip": "QL_MVALab\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:41:46.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\BaseViewModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\BaseViewModel.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\BaseViewModel.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAADwv18AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T10:49:49.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "WelcomeView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\WelcomeView.xaml.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\WelcomeView.xaml.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\WelcomeView.xaml.cs",
-              "RelativeToolTip": "QL_MVALab\\View\\WelcomeView.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T09:23:50.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 20,
               "Title": "Views_HocPhiView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_HocPhiView.xaml.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_HocPhiView.xaml.cs",
               "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_HocPhiView.xaml.cs",
               "RelativeToolTip": "QL_MVALab\\View\\Views_HocPhiView.xaml.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBkAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T16:09:09.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "KhoaHocViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\KhoaHocViewModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\KhoaHocViewModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\KhoaHocViewModel.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\KhoaHocViewModel.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAQwGIAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:38:20.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 21,
               "Title": "Views_LopHocView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_LopHocView.xaml.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_LopHocView.xaml.cs",
@@ -625,7 +468,254 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WelcomeView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\WelcomeView.xaml.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\WelcomeView.xaml.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\WelcomeView.xaml.cs",
+              "RelativeToolTip": "QL_MVALab\\View\\WelcomeView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T09:23:50.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GiangVienViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAYwBMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:38:46.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:37:53.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "QL_MVALab\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\MainWindow.xaml",
+              "RelativeToolTip": "QL_MVALab\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-02T17:02:50.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Views_HocPhiView.xaml",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_HocPhiView.xaml",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_HocPhiView.xaml",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_HocPhiView.xaml",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_HocPhiView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-03T07:56:30.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HocPhiModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\HocPhiModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\Model\\HocPhiModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\HocPhiModel.cs",
+              "RelativeToolTip": "QL_MVALab\\Model\\HocPhiModel.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwCoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T07:12:39.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HocPhiViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\HocPhiViewModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\HocPhiViewModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\HocPhiViewModel.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\HocPhiViewModel.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAkwCkBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:38:38.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "WelcomeView.xaml",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\WelcomeView.xaml",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\WelcomeView.xaml",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\WelcomeView.xaml",
+              "RelativeToolTip": "QL_MVALab\\View\\WelcomeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-03T09:03:23.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GiangVienModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\GiangVienModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\Model\\GiangVienModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\GiangVienModel.cs",
+              "RelativeToolTip": "QL_MVALab\\Model\\GiangVienModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAApwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T02:59:28.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LopHocModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\LopHocModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\Model\\LopHocModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\LopHocModel.cs",
+              "RelativeToolTip": "QL_MVALab\\Model\\LopHocModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA/wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T04:05:04.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\MainWindow.xaml.cs",
+              "RelativeToolTip": "QL_MVALab\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T17:02:47.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "NavItem.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\NavItem.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\NavItem.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\NavItem.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\NavItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T08:51:21.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAABIVAAAAAAAAAAAQwBEVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-07T09:29:34.529Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 35,
+              "Title": "LopHocViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\LopHocViewModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\LopHocViewModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\LopHocViewModel.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\LopHocViewModel.cs",
+              "ViewState": "AgIAAGIBAAAAAAAAAAAkwP0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:38:11.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "QL_MVALab\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAUwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T08:13:43.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "QL_MVALab\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\LoginWindow.xaml",
+              "RelativeToolTip": "QL_MVALab\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-03T08:11:26.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\App.xaml",
+              "RelativeDocumentMoniker": "QL_MVALab\\App.xaml",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\App.xaml",
+              "RelativeToolTip": "QL_MVALab\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-03T07:40:47.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\AssemblyInfo.cs",
+              "RelativeToolTip": "QL_MVALab\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T11:04:00.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\App.xaml.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\App.xaml.cs",
+              "RelativeToolTip": "QL_MVALab\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:41:46.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\BaseViewModel.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\BaseViewModel.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwv18AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T10:49:49.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "KhoaHocViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\KhoaHocViewModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\KhoaHocViewModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\KhoaHocViewModel.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\KhoaHocViewModel.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAQwGIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:38:20.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "Views_LopHocView.xaml",
               "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_LopHocView.xaml",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_LopHocView.xaml",
@@ -636,7 +726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "Views_GiangVienView.xaml",
               "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_GiangVienView.xaml",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_GiangVienView.xaml",
@@ -647,18 +737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Views_HocVienView.xaml",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_HocVienView.xaml",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_HocVienView.xaml",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_HocVienView.xaml",
-              "RelativeToolTip": "QL_MVALab\\View\\Views_HocVienView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-03T07:53:45.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ViewModel\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\LoginViewModel.cs",
@@ -670,19 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Views_DangKyView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_DangKyView.xaml.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_DangKyView.xaml.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_DangKyView.xaml.cs",
-              "RelativeToolTip": "QL_MVALab\\View\\Views_DangKyView.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T08:06:52.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 46,
               "Title": "KhoaHocModel.cs",
               "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\Model\\KhoaHocModel.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\Model\\KhoaHocModel.cs",
@@ -694,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 47,
               "Title": "Views_LopHocView.g.cs",
               "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\obj\\Debug\\net8.0-windows\\View\\Views_LopHocView.g.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\obj\\Debug\\net8.0-windows\\View\\Views_LopHocView.g.cs",
@@ -706,54 +773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Views_KhoaHocView.xaml",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_KhoaHocView.xaml",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_KhoaHocView.xaml",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_KhoaHocView.xaml",
-              "RelativeToolTip": "QL_MVALab\\View\\Views_KhoaHocView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-03T07:55:47.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Views_GiangVienView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_GiangVienView.xaml.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_GiangVienView.xaml.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_GiangVienView.xaml.cs",
-              "RelativeToolTip": "QL_MVALab\\View\\Views_GiangVienView.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwC4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T02:56:50.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Views_KhoaHocView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
-              "RelativeToolTip": "QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T09:15:48.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Views_HocVienView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_HocVienView.xaml.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_HocVienView.xaml.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\View\\Views_HocVienView.xaml.cs",
-              "RelativeToolTip": "QL_MVALab\\View\\Views_HocVienView.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T08:20:22.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "Connect.cs",
               "DocumentMoniker": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\ConnectDatabase\\Connect.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\ConnectDatabase\\Connect.cs",

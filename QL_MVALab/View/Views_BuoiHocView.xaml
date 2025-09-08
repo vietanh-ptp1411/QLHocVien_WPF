@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
              mc:Ignorable="d"
              d:DesignHeight="800"
              d:DesignWidth="1400">
@@ -191,29 +192,57 @@
                                        Foreground="Purple" />
                         </StackPanel>
 
+                        <!--<Label content="buổi thứ *" />
+                        <ComboBox itemssource="{binding buoithuoptions}"
+                                  selecteditem="{binding buoithu, mode=twoway, updatesourcetrigger=propertychanged}"
+                                  iseditable="true"
+                                  margin="5"
+                                  height="25"
+                                  tooltip="chọn hoặc nhập buổi thứ" />-->
                         <Label Content="Buổi thứ *" />
-                        <ComboBox ItemsSource="{Binding BuoiThuOptions}"
-                                  SelectedItem="{Binding BuoiThu, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                                  IsEditable="True"
-                                  Margin="5"
-                                  Height="25"
-                                  ToolTip="Chọn hoặc nhập buổi thứ" />
+                        <TextBox Text="{Binding BuoiThu, UpdateSourceTrigger=PropertyChanged}"
+                                 TextWrapping="Wrap"
+                                 AcceptsReturn="True"
+                                 ToolTip="Nội dung, chủ đề của buổi học" />
 
-                        <Label Content="Thời gian bắt đầu *" />
-                        <ComboBox ItemsSource="{Binding ThoiGianOptions}"
-                                  SelectedItem="{Binding ThoiGianBatDau, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                                  IsEditable="True"
-                                  Margin="5"
-                                  Height="25"
-                                  ToolTip="Chọn hoặc nhập thời gian bắt đầu" />
+                        <!-- Thời gian bắt đầu -->
+                        <Label Content="Thời gian bắt đầu" />
+                        <DatePicker SelectedDate="{Binding ThoiGianBatDau, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                    Margin="5"
+                                    Height="30"
+                                    HorizontalAlignment="Left"
+                                    Width="200"
+                                    ToolTip="Chọn ngày bắt đầu" />
 
-                        <Label Content="Thời gian kết thúc *" />
-                        <ComboBox ItemsSource="{Binding ThoiGianOptions}"
-                                  SelectedItem="{Binding ThoiGianKetThuc, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                                  IsEditable="True"
-                                  Margin="5"
-                                  Height="25"
-                                  ToolTip="Chọn hoặc nhập thời gian kết thúc" />
+                        <xctk:TimePicker Value="{Binding ThoiGianBatDau, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                         Margin="5"
+                                         Height="25"
+                                         HorizontalAlignment="Left"
+                                         Width="100"
+                                         ToolTip="Chọn giờ bắt đầu"
+                                         Format="Custom"
+                                         FormatString="HH:mm" />
+
+                        <!-- Thời gian kết thúc -->
+                        <Label Content="Thời gian kết thúc" />
+                        <DatePicker SelectedDate="{Binding ThoiGianKetThuc, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                    Margin="5"
+                                    Height="25"
+                                    HorizontalAlignment="Left"
+                                    Width="200"
+                                    ToolTip="Chọn ngày kết thúc" />
+
+                        <xctk:TimePicker Value="{Binding ThoiGianKetThuc, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                         Margin="5"
+                                         Height="25"
+                                         ToolTip="Chọn giờ kết thúc"
+                                         Format="Custom"
+                                         FormatString="HH:mm" 
+                                         HorizontalAlignment="Left"
+                                         HorizontalContentAlignment="Center"
+                                         Width="100"/>
+
+
 
                         <Label Content="Chủ đề" />
                         <TextBox Text="{Binding ChuDe, UpdateSourceTrigger=PropertyChanged}"
@@ -222,6 +251,12 @@
                                  AcceptsReturn="True"
                                  VerticalScrollBarVisibility="Auto"
                                  ToolTip="Nội dung, chủ đề của buổi học" />
+                        <Label Content="Link buổi học" />
+                        <TextBox Text="{Binding LinkBuoiHoc, UpdateSourceTrigger=PropertyChanged}"
+                                 Height="50"
+                                 TextWrapping="Wrap"
+                                 AcceptsReturn="True"
+                                 VerticalScrollBarVisibility="Auto" />
 
                         <!-- Nút thao tác -->
                         <StackPanel Orientation="Horizontal"
@@ -376,18 +411,18 @@
                         </DataGridTextColumn.ElementStyle>
                     </DataGridTextColumn>
 
-                    <DataGridTextColumn Header="Giờ bắt đầu"
-                                        Binding="{Binding ThoiGianBatDau}"
-                                        MinWidth="80">
+                    <DataGridTextColumn Header="Thời gian bắt đầu"
+                                        Binding="{Binding ThoiGianBatDau, StringFormat='dd/MM/yyyy HH:mm'}"
+                                        MinWidth="120">
                         <DataGridTextColumn.ElementStyle>
                             <Style TargetType="TextBlock"
                                    BasedOn="{StaticResource CenterCell}" />
                         </DataGridTextColumn.ElementStyle>
                     </DataGridTextColumn>
 
-                    <DataGridTextColumn Header="Giờ kết thúc"
-                                        Binding="{Binding ThoiGianKetThuc}"
-                                        MinWidth="80">
+                    <DataGridTextColumn Header="Thời gian kết thúc"
+                                        Binding="{Binding ThoiGianKetThuc, StringFormat='dd/MM/yyyy HH:mm'}"
+                                        MinWidth="120">
                         <DataGridTextColumn.ElementStyle>
                             <Style TargetType="TextBlock"
                                    BasedOn="{StaticResource CenterCell}" />
@@ -396,6 +431,12 @@
 
                     <DataGridTextColumn Header="Chủ đề"
                                         Binding="{Binding ChuDe}"
+                                        MinWidth="150"
+                                        Width="*"
+                                        ElementStyle="{StaticResource CellText}" />
+                    
+                    <DataGridTextColumn Header="Link buổi học"
+                                        Binding="{Binding LinkBuoiHoc}"
                                         MinWidth="150"
                                         Width="*"
                                         ElementStyle="{StaticResource CellText}" />

@@ -31,7 +31,6 @@ namespace QL_MVALab.ViewModel
                 _selected = value; OnPropertyChanged();
                 if (value == null) return;
                 Id = value.Id;
-                MaHocVien = value.MaHocVien;
                 HoTen = value.HoTen;
                 NamSinh = value.NamSinh;
                 Email = value.Email;
@@ -43,9 +42,6 @@ namespace QL_MVALab.ViewModel
 
         public int? Id { get => _id; set { _id = value; OnPropertyChanged(); } }
         private int? _id;
-
-        public string MaHocVien { get => _ma; set { _ma = value; OnPropertyChanged(); } }
-        private string _ma = "";
 
         public string HoTen { get => _ten; set { _ten = value; OnPropertyChanged(); } }
         private string _ten = "";
@@ -94,7 +90,7 @@ namespace QL_MVALab.ViewModel
             try
             {
                 var dt = Connect.DataTransport(
-                    "SELECT Id, MaHocVien, HoTen, NamSinh, Email, DienThoai, DiaChi, NgayTao " +
+                    "SELECT Id, HoTen, NamSinh, Email, DienThoai, DiaChi, NgayTao " +
                     "FROM dbo.HocVien ORDER BY Id ASC");
 
                 HocVienList.Clear();
@@ -103,7 +99,6 @@ namespace QL_MVALab.ViewModel
                     HocVienList.Add(new HocVienModel
                     {
                         Id = r.Field<int>("Id"),
-                        MaHocVien = r["MaHocVien"]?.ToString() ?? "",
                         HoTen = r["HoTen"]?.ToString() ?? "",
                         NamSinh = r["NamSinh"]?.ToString(),
                         Email = r["Email"]?.ToString() ?? "",
@@ -118,10 +113,9 @@ namespace QL_MVALab.ViewModel
         }
 
         private bool CanAdd()
-            => !string.IsNullOrWhiteSpace(MaHocVien)
-            && !string.IsNullOrWhiteSpace(HoTen)
+            =>  HoTen != null
             && !string.IsNullOrWhiteSpace(Email)
-            && !HocVienList.Any(x => x.MaHocVien.Equals(MaHocVien, StringComparison.OrdinalIgnoreCase));
+            && !HocVienList.Any(x => x.HoTen.Equals(HoTen, StringComparison.OrdinalIgnoreCase));
 
         private void Add()
         {
@@ -129,8 +123,8 @@ namespace QL_MVALab.ViewModel
             {
                 // Id & NgayTao DB tự sinh; dùng NULLIF để đẩy NULL khi người dùng để trống
                 string sql = $@"
-                        INSERT INTO dbo.HocVien (MaHocVien, HoTen, NamSinh, Email, DienThoai, DiaChi)
-                        VALUES (N'{Esc(MaHocVien)}', N'{Esc(HoTen)}',
+                        INSERT INTO dbo.HocVien (HoTen, NamSinh, Email, DienThoai, DiaChi)
+                        VALUES (N'{Esc(HoTen)}',
                         NULLIF(N'{Esc(NamSinh)}',''), N'{Esc(Email)}',
                         NULLIF(N'{Esc(DienThoai)}',''), NULLIF(N'{Esc(DiaChi)}',''));";
                                 int n = Connect.DataExcution(sql);
@@ -142,7 +136,6 @@ namespace QL_MVALab.ViewModel
 
         private bool CanUpdate()
             => SelectedHocVien != null && Id.HasValue
-            && !string.IsNullOrWhiteSpace(MaHocVien)
             && !string.IsNullOrWhiteSpace(HoTen)
             && !string.IsNullOrWhiteSpace(Email);
 
@@ -153,7 +146,6 @@ namespace QL_MVALab.ViewModel
             {
                 string sql = $@"
                                 UPDATE dbo.HocVien SET
-                                MaHocVien = N'{Esc(MaHocVien)}',
                                 HoTen     = N'{Esc(HoTen)}',
                                 NamSinh   = NULLIF(N'{Esc(NamSinh)}',''),
                                 Email     = N'{Esc(Email)}',
@@ -193,7 +185,6 @@ namespace QL_MVALab.ViewModel
             }
             string kw = SearchText.Trim().ToLower();
             var rs = HocVienList.Where(h =>
-                    (h.MaHocVien?.ToLower().Contains(kw) ?? false) ||
                     (h.HoTen?.ToLower().Contains(kw) ?? false) ||
                     (h.NamSinh?.ToLower().Contains(kw) ?? false) ||
                     (h.Email?.ToLower().Contains(kw) ?? false) ||
@@ -206,7 +197,7 @@ namespace QL_MVALab.ViewModel
         private void Clear()
         {
             Id = null;
-            MaHocVien = HoTen = Email = "";
+            HoTen = Email = "";
             NamSinh = DienThoai = DiaChi = null;
             NgayTao = null;
             SelectedHocVien = null;

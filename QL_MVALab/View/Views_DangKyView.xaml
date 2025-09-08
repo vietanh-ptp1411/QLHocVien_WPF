@@ -128,9 +128,13 @@
                         </StackPanel>
 
                         <Label Content="Học viên *" />
-                        <ComboBox ItemsSource="{Binding HocVienList}"
+                        <ComboBox ItemsSource="{Binding FilteredHocVienList}"
                                   SelectedItem="{Binding SelectedHocVien}"
-                                  DisplayMemberPath="HoTen" />
+                                  DisplayMemberPath="HoTen"
+                                  IsEditable="True"
+                                  IsTextSearchEnabled="False"
+                                  Text="{Binding HocVienSearchText, UpdateSourceTrigger=PropertyChanged}"
+                                  StaysOpenOnEdit="True" />
 
                         <Label Content="Lớp học *" />
                         <ComboBox ItemsSource="{Binding LopHocList}"
@@ -153,7 +157,7 @@
                                   Padding="5"
                                   Height="25"
                                   VerticalContentAlignment="Center" />
-                        
+
                         <!-- Nút thao tác -->
                         <StackPanel Orientation="Horizontal"
                                     HorizontalAlignment="Center"

@@ -54,10 +54,10 @@ namespace QL_MVALab.ViewModel
         private string _bt = "";
 
         public DateTime ThoiGianBatDau { get => _tgbd; set { _tgbd = value; OnPropertyChanged(); } }
-        private DateTime _tgbd ;
+        private DateTime _tgbd;
 
         public DateTime ThoiGianKetThuc { get => _tgkt; set { _tgkt = value; OnPropertyChanged(); } }
-        private DateTime _tgkt ;
+        private DateTime _tgkt;
 
         public string ChuDe { get => _cd; set { _cd = value; OnPropertyChanged(); } }
         private string _cd = "";
@@ -79,6 +79,21 @@ namespace QL_MVALab.ViewModel
         private string? _search;
         public string? SearchText { get => _search; set { _search = value; OnPropertyChanged(); Search(); } }
 
+        // Danh sách cho ComboBox
+        public ObservableCollection<string> BuoiThuOptions { get; } = new()
+        {
+            "1", "2", "3", "4", "5", "6", "7"
+        };
+
+        public ObservableCollection<DateTime> ThoiGianOptions { get; } = new()
+        {
+            DateTime.Today.AddHours(20),   // 7:00 AM
+            DateTime.Today.AddHours(21),   // 8:00 AM
+            DateTime.Today.AddHours(22),   // 9:00 AM
+            DateTime.Today.AddHours(23),  // 10:00 AM
+            DateTime.Today.AddHours(0),  // 10:00 AM
+        };
+
         // Command
         public ICommand AddCommand { get; }
         public ICommand UpdateCommand { get; }
@@ -95,6 +110,11 @@ namespace QL_MVALab.ViewModel
             SearchCommand = new RelayCommand<object>(_ => true, _ => Search());
             ClearCommand = new RelayCommand<object>(_ => true, _ => Clear());
             RefreshCommand = new RelayCommand<object>(_ => true, _ => LoadData());
+
+            // Khởi tạo giá trị mặc định
+            ThoiGianBatDau = DateTime.Today.AddHours(8);
+            ThoiGianKetThuc = DateTime.Today.AddHours(10);
+
             LoadData();
         }
 
@@ -121,8 +141,8 @@ namespace QL_MVALab.ViewModel
                         Id = r.Field<int>("Id"),
                         LopHocId = r.Field<int>("LopHocId"),
                         BuoiThu = r.Field<string>("BuoiThu") ?? "",
-                        ThoiGianBatDau = r.Field<DateTime>("ThoiGianBatDau") ,
-                        ThoiGianKetThuc = r.Field<DateTime>("ThoiGianKetThuc") ,
+                        ThoiGianBatDau = r.Field<DateTime>("ThoiGianBatDau"),
+                        ThoiGianKetThuc = r.Field<DateTime>("ThoiGianKetThuc"),
                         ChuDe = r.Field<string>("ChuDe") ?? "",
                         LinkBuoiHoc = r.Field<string>("LinkBuoiHoc") ?? "",
                         TenLop = r.Field<string>("TenLop") ?? "",
@@ -139,19 +159,19 @@ namespace QL_MVALab.ViewModel
         }
 
         private bool CanAdd()
-            => LopHocId != null && LopHocId > 0
-            && !string.IsNullOrWhiteSpace(BuoiThu)
-            && ThoiGianBatDau != null
-            && ThoiGianKetThuc != null;
+            => LopHocId != null && LopHocId > 0;
 
         private void Add()
         {
             try
             {
+                // Format datetime an toàn
+                string tgbdStr = ThoiGianBatDau.ToString("yyyy-MM-dd HH:mm:ss");
+                string tgktStr = ThoiGianKetThuc.ToString("yyyy-MM-dd HH:mm:ss");
+
                 string sql = $@"
                     INSERT INTO dbo.BuoiHoc (LopHocId, BuoiThu, ThoiGianBatDau, ThoiGianKetThuc, ChuDe, LinkBuoiHoc)
-                    VALUES ({LopHocId}, N'{Esc(BuoiThu)}', {ThoiGianBatDau:yyyy-MM-dd}, 
-                    {ThoiGianKetThuc:yyyy-MM-dd}, N'{Esc(ChuDe)}' , N'{Esc(LinkBuoiHoc)}');";
+                    VALUES ({LopHocId}, N'{Esc(BuoiThu)}', '{tgbdStr}', '{tgktStr}', N'{Esc(ChuDe)}', N'{Esc(LinkBuoiHoc)}');";
 
                 int n = Connect.DataExcution(sql);
                 if (n > 0)
@@ -172,20 +192,24 @@ namespace QL_MVALab.ViewModel
             => SelectedBuoiHoc != null && Id.HasValue
             && LopHocId != null && LopHocId > 0
             && !string.IsNullOrWhiteSpace(BuoiThu)
-            && ThoiGianBatDau!= null
-            && ThoiGianKetThuc!=null;
+            && ThoiGianBatDau != null
+            && ThoiGianKetThuc != null;
 
         private void Update()
         {
             if (!Id.HasValue) return;
             try
             {
+                // Format datetime an toàn
+                string tgbdStr = ThoiGianBatDau.ToString("yyyy-MM-dd HH:mm:ss");
+                string tgktStr = ThoiGianKetThuc.ToString("yyyy-MM-dd HH:mm:ss");
+
                 string sql = $@"
                     UPDATE dbo.BuoiHoc SET
                     LopHocId = {LopHocId},
                     BuoiThu = N'{Esc(BuoiThu)}',
-                    ThoiGianBatDau = '{ThoiGianBatDau:yyyy-MM-dd}',
-                    ThoiGianKetThuc ='{ThoiGianKetThuc:yyyy-MM-dd}',
+                    ThoiGianBatDau = '{tgbdStr}',
+                    ThoiGianKetThuc = '{tgktStr}',
                     ChuDe = N'{Esc(ChuDe)}',
                     LinkBuoiHoc = N'{Esc(LinkBuoiHoc)}'   
                     WHERE Id = {Id.Value};";
@@ -254,8 +278,8 @@ namespace QL_MVALab.ViewModel
             Id = null;
             LopHocId = null;
             BuoiThu = "";
-            ThoiGianBatDau = DateTime.Now;
-            ThoiGianKetThuc = DateTime.Now;
+            ThoiGianBatDau = DateTime.Now; // Ngày giờ hiện tại
+            ThoiGianKetThuc = DateTime.Now.AddHours(2); // Thêm 2 tiếng
             ChuDe = "";
             LinkBuoiHoc = "";
             TenLop = "";
@@ -309,6 +333,14 @@ namespace QL_MVALab.ViewModel
             }
         }
 
-        private static string Esc(string? s) => (s ?? string.Empty).Replace("'", "''");
+        private static string Esc(string? s)
+        {
+            if (string.IsNullOrEmpty(s)) return string.Empty;
+
+            return s.Replace("'", "''")      // Escape single quote
+                    .Replace("\"", "\"\"")   // Escape double quote  
+                    .Replace("\r", "")       // Remove carriage return
+                    .Replace("\n", " ");     // Replace newline with space
+        }
     }
 }

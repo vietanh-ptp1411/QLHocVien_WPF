@@ -22,7 +22,6 @@ namespace QL_MVALab.View
             {
                 var hv = viewModel.SelectedHocVien;
                 var info =
-                    $"Mã HV: {hv.MaHocVien}\n" +
                     $"Họ tên: {hv.HoTen}\n" +
                     $"Năm sinh: {hv.NamSinh}\n" +
                     $"SĐT: {hv.DienThoai}\n" +
