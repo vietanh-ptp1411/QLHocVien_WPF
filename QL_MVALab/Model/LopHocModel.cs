@@ -18,6 +18,12 @@ namespace QL_MVALab.Model
         public string LichHoc { get; set; } = "";
         public string TenKhoaHoc { get; set; } = "";
         public string TenGiangVien { get; set; } = "";
+        public string DisplayText => $"{Id} - {TenLop}";
+
+        public override string ToString()
+        {
+            return DisplayText;
+        }
 
     }
 }

@@ -1,0 +1,408 @@
+﻿<UserControl x:Class="QL_MVALab.View.Views_BuoiHocView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="800"
+             d:DesignWidth="1400">
+
+    <!-- ========== Styles đơn giản ========== -->
+    <UserControl.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin"
+                    Value="5" />
+            <Setter Property="Padding"
+                    Value="10,5" />
+            <Setter Property="MinWidth"
+                    Value="80" />
+            <Setter Property="Height"
+                    Value="30" />
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Margin"
+                    Value="5" />
+            <Setter Property="Padding"
+                    Value="5" />
+            <Setter Property="Height"
+                    Value="25" />
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin"
+                    Value="5" />
+            <Setter Property="Padding"
+                    Value="5" />
+            <Setter Property="Height"
+                    Value="25" />
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="Margin"
+                    Value="5,5,5,0" />
+            <Setter Property="FontWeight"
+                    Value="SemiBold" />
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <!-- Header -->
+            <RowDefinition Height="Auto" />
+            <!-- Search -->
+            <RowDefinition Height="*" />
+            <!-- Content -->
+        </Grid.RowDefinitions>
+
+        <!-- ========== Header ========== -->
+        <Border Grid.Row="0"
+                Background="#4CAF50"
+                Padding="10">
+            <DockPanel LastChildFill="False">
+                <TextBlock Text="QUẢN LÝ BUỔI HỌC"
+                           FontSize="24"
+                           FontWeight="Bold"
+                           Foreground="White"
+                           VerticalAlignment="Center" />
+                <Button Content="🔄 Refresh"
+                        DockPanel.Dock="Right"
+                        Command="{Binding RefreshCommand}"
+                        Background="Transparent"
+                        Foreground="White"
+                        BorderBrush="White"
+                        Margin="20,0,0,0" />
+            </DockPanel>
+        </Border>
+
+        <!-- ========== Search bar ========== -->
+        <Border Grid.Row="1"
+                Background="#f5f5f5"
+                Padding="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="0"
+                           Text="🔍 Tìm kiếm:"
+                           VerticalAlignment="Center"
+                           Margin="0,0,10,0"
+                           FontWeight="SemiBold" />
+                <TextBox Grid.Column="1"
+                         Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}" />
+                <TextBlock Grid.Column="2"
+                           Text="{Binding FilteredBuoiHocList.Count, StringFormat='Tìm thấy: {0} buổi học'}"
+                           VerticalAlignment="Center"
+                           Margin="10,0,0,0"
+                           FontStyle="Italic" />
+            </Grid>
+        </Border>
+
+        <!-- ========== Main Content ========== -->
+        <Grid Grid.Row="2"
+              Margin="10"
+              Background="AliceBlue">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="450" />
+                <!-- Form -->
+                <ColumnDefinition Width="*" />
+                <!-- Grid -->
+            </Grid.ColumnDefinitions>
+
+            <!-- ===== Form nhập ===== -->
+            <GroupBox Grid.Column="0"
+                      Header="Thông tin buổi học"
+                      Margin="0,0,5,0">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel>
+
+                        <!-- Chỉ đọc: Id -->
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="0,0,0,8">
+                            <Label Content="ID:" />
+                            <TextBlock Text="{Binding Id}"
+                                       VerticalAlignment="Center"
+                                       Margin="5,5,15,0"
+                                       FontWeight="Bold" />
+                        </StackPanel>
+
+                        <Label Content="Lớp học ID *" />
+                        <TextBox Text="{Binding LopHocId, UpdateSourceTrigger=PropertyChanged}"
+                                 ToolTip="Nhập ID lớp học để tự động hiển thị thông tin lớp" />
+
+                        <!-- Hiển thị thông tin lớp học (tự động load) -->
+                        <Label Content="Tên lớp:" />
+                        <Border Background="#f0f0f0"
+                                Margin="5"
+                                Padding="5"
+                                MinHeight="25"
+                                CornerRadius="3">
+                            <TextBlock VerticalAlignment="Center"
+                                       TextWrapping="Wrap"
+                                       FontStyle="Italic">
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Text"
+                                                Value="{Binding TenLop}" />
+                                        <Setter Property="Foreground"
+                                                Value="Green" />
+                                        <Setter Property="FontWeight"
+                                                Value="SemiBold" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding TenLop}"
+                                                         Value="">
+                                                <Setter Property="Foreground"
+                                                        Value="Gray" />
+                                                <Setter Property="Text"
+                                                        Value="💡 Nhập Lớp học ID để hiển thị thông tin lớp" />
+                                                <Setter Property="FontWeight"
+                                                        Value="Normal" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBlock.Style>
+                            </TextBlock>
+                        </Border>
+
+                        <!-- Thông tin bổ sung từ lớp học -->
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="0,0,0,5">
+                            <Label Content="Khóa học:"
+                                   Width="70" />
+                            <TextBlock Text="{Binding KhoaHocId}"
+                                       VerticalAlignment="Center"
+                                       Margin="5,5,15,0"
+                                       FontStyle="Italic"
+                                       Foreground="Blue" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="0,0,0,5">
+                            <Label Content="Giảng viên:"
+                                   Width="70" />
+                            <TextBlock Text="{Binding GiangVienId}"
+                                       VerticalAlignment="Center"
+                                       Margin="5,5,15,0"
+                                       FontStyle="Italic"
+                                       Foreground="Purple" />
+                        </StackPanel>
+
+                        <Label Content="Buổi thứ *" />
+                        <ComboBox ItemsSource="{Binding BuoiThuOptions}"
+                                  SelectedItem="{Binding BuoiThu, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                  IsEditable="True"
+                                  Margin="5"
+                                  Height="25"
+                                  ToolTip="Chọn hoặc nhập buổi thứ" />
+
+                        <Label Content="Thời gian bắt đầu *" />
+                        <ComboBox ItemsSource="{Binding ThoiGianOptions}"
+                                  SelectedItem="{Binding ThoiGianBatDau, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                  IsEditable="True"
+                                  Margin="5"
+                                  Height="25"
+                                  ToolTip="Chọn hoặc nhập thời gian bắt đầu" />
+
+                        <Label Content="Thời gian kết thúc *" />
+                        <ComboBox ItemsSource="{Binding ThoiGianOptions}"
+                                  SelectedItem="{Binding ThoiGianKetThuc, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                  IsEditable="True"
+                                  Margin="5"
+                                  Height="25"
+                                  ToolTip="Chọn hoặc nhập thời gian kết thúc" />
+
+                        <Label Content="Chủ đề" />
+                        <TextBox Text="{Binding ChuDe, UpdateSourceTrigger=PropertyChanged}"
+                                 Height="80"
+                                 TextWrapping="Wrap"
+                                 AcceptsReturn="True"
+                                 VerticalScrollBarVisibility="Auto"
+                                 ToolTip="Nội dung, chủ đề của buổi học" />
+
+                        <!-- Nút thao tác -->
+                        <StackPanel Orientation="Horizontal"
+                                    HorizontalAlignment="Center"
+                                    Margin="0,20,0,0">
+                            <Button Content="➕ Thêm"
+                                    Command="{Binding AddCommand}"
+                                    Background="#4CAF50"
+                                    Foreground="White"
+                                    BorderBrush="#4CAF50" />
+                            <Button Content="✏️ Sửa"
+                                    Command="{Binding UpdateCommand}"
+                                    Background="#FF9800"
+                                    Foreground="White"
+                                    BorderBrush="#FF9800" />
+                            <Button Content="🗑️ Xóa"
+                                    Command="{Binding DeleteCommand}"
+                                    Background="#F44336"
+                                    Foreground="White"
+                                    BorderBrush="#F44336" />
+                            <Button Content="🆕 Clear"
+                                    Command="{Binding ClearCommand}"
+                                    Background="#607D8B"
+                                    Foreground="White"
+                                    BorderBrush="#607D8B" />
+                        </StackPanel>
+
+                        <TextBlock Text="* Trường bắt buộc"
+                                   FontStyle="Italic"
+                                   Foreground="Red"
+                                   Margin="5,10,5,0"
+                                   HorizontalAlignment="Center" />
+                    </StackPanel>
+                </ScrollViewer>
+            </GroupBox>
+
+            <!-- ===== DataGrid ===== -->
+            <DataGrid Grid.Column="1"
+                      ItemsSource="{Binding FilteredBuoiHocList}"
+                      SelectedItem="{Binding SelectedBuoiHoc, Mode=TwoWay}"
+                      AutoGenerateColumns="False"
+                      CanUserAddRows="False"
+                      IsReadOnly="True"
+                      RowHeaderWidth="0"
+                      HeadersVisibility="Column"
+                      ColumnWidth="Auto"
+                      CanUserResizeColumns="True"
+                      BorderBrush="#81C784"
+                      BorderThickness="1"
+                      GridLinesVisibility="All"
+                      HorizontalGridLinesBrush="#E0E0E0"
+                      VerticalGridLinesBrush="#E0E0E0"
+                      AlternationCount="2"
+                      RowBackground="White"
+                      AlternatingRowBackground="#F1F8E9"
+                      ScrollViewer.VerticalScrollBarVisibility="Auto"
+                      ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                      VirtualizingPanel.IsVirtualizing="True"
+                      VirtualizingPanel.VirtualizationMode="Recycling"
+                      VirtualizingPanel.ScrollUnit="Pixel"
+                      EnableRowVirtualization="True"
+                      EnableColumnVirtualization="True">
+
+                <!-- Header cột: căn giữa + màu nền -->
+                <DataGrid.ColumnHeaderStyle>
+                    <Style TargetType="DataGridColumnHeader">
+                        <Setter Property="HorizontalContentAlignment"
+                                Value="Center" />
+                        <Setter Property="Background"
+                                Value="#C8E6C9" />
+                        <Setter Property="Foreground"
+                                Value="#1B5E20" />
+                        <Setter Property="FontWeight"
+                                Value="SemiBold" />
+                        <Setter Property="BorderBrush"
+                                Value="#81C784" />
+                        <Setter Property="BorderThickness"
+                                Value="0,0,1,1" />
+                        <Setter Property="Padding"
+                                Value="6,4" />
+                    </Style>
+                </DataGrid.ColumnHeaderStyle>
+
+                <!-- Cell & Row style -->
+                <DataGrid.Resources>
+                    <!-- cell text mặc định -->
+                    <Style x:Key="CellText"
+                           TargetType="TextBlock">
+                        <Setter Property="Padding"
+                                Value="6,0" />
+                        <Setter Property="VerticalAlignment"
+                                Value="Center" />
+                        <Setter Property="TextTrimming"
+                                Value="CharacterEllipsis" />
+                    </Style>
+                    <!-- cell căn giữa -->
+                    <Style x:Key="CenterCell"
+                           TargetType="TextBlock"
+                           BasedOn="{StaticResource CellText}">
+                        <Setter Property="TextAlignment"
+                                Value="Center" />
+                    </Style>
+                    <!-- gạch chân mỗi row + màu chọn -->
+                    <Style TargetType="DataGridRow">
+                        <Setter Property="BorderBrush"
+                                Value="#E0E0E0" />
+                        <Setter Property="BorderThickness"
+                                Value="0,0,0,1" />
+                    </Style>
+                </DataGrid.Resources>
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID"
+                                        Binding="{Binding Id}"
+                                        MinWidth="40">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock"
+                                   BasedOn="{StaticResource CenterCell}" />
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+
+                    <DataGridTextColumn Header="Lớp ID"
+                                        Binding="{Binding LopHocId}"
+                                        MinWidth="60">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock"
+                                   BasedOn="{StaticResource CenterCell}" />
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+
+                    <DataGridTextColumn Header="Tên lớp"
+                                        Binding="{Binding TenLop}"
+                                        MinWidth="120"
+                                        ElementStyle="{StaticResource CellText}" />
+
+                    <DataGridTextColumn Header="Khóa học"
+                                        Binding="{Binding KhoaHocId}"
+                                        MinWidth="100"
+                                        ElementStyle="{StaticResource CellText}" />
+
+                    <DataGridTextColumn Header="Giảng viên"
+                                        Binding="{Binding GiangVienId}"
+                                        MinWidth="120"
+                                        ElementStyle="{StaticResource CellText}" />
+
+                    <DataGridTextColumn Header="Buổi thứ"
+                                        Binding="{Binding BuoiThu}"
+                                        MinWidth="80">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock"
+                                   BasedOn="{StaticResource CenterCell}" />
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+
+                    <DataGridTextColumn Header="Giờ bắt đầu"
+                                        Binding="{Binding ThoiGianBatDau}"
+                                        MinWidth="80">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock"
+                                   BasedOn="{StaticResource CenterCell}" />
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+
+                    <DataGridTextColumn Header="Giờ kết thúc"
+                                        Binding="{Binding ThoiGianKetThuc}"
+                                        MinWidth="80">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock"
+                                   BasedOn="{StaticResource CenterCell}" />
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+
+                    <DataGridTextColumn Header="Chủ đề"
+                                        Binding="{Binding ChuDe}"
+                                        MinWidth="150"
+                                        Width="*"
+                                        ElementStyle="{StaticResource CellText}" />
+
+                </DataGrid.Columns>
+            </DataGrid>
+
+        </Grid>
+    </Grid>
+</UserControl>

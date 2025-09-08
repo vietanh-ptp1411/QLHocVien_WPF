@@ -15,5 +15,11 @@ namespace QL_MVALab.Model
         public string? DienThoai { get; set; }
         public string? DiaChi { get; set; }
         public DateTime NgayTao { get; set; }       // DEFAULT GETDATE()
+        public string DisplayText => $"{Id} - {HoTen}";
+
+        public override string ToString()
+        {
+            return DisplayText;
+        }
     }
 }

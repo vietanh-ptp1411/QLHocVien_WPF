@@ -167,6 +167,9 @@
                         <DataTemplate DataType="{x:Type vm:GiangVienViewModel}">
                             <views:Views_GiangVienView />
                         </DataTemplate>
+                        <DataTemplate DataType="{x:Type vm:BuoiHocViewModel}">
+                            <views:Views_BuoiHocView />
+                        </DataTemplate>
                     </ContentControl.Resources>
                 </ContentControl>
             </Border>

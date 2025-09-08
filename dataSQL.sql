@@ -188,12 +188,29 @@ VALUES
 
  INSERT INTO DangKy (HocVienId, LopHocId, TrangThai)
 VALUES
- (1, 1, 1), -- HV01 học lớp C# cơ bản
+ (1, 6, 1), -- HV01 học lớp C# cơ bản
  (3, 3, 1), -- HV02 học lớp WPF MVVM
  (1, 4, 1); -- HV03 học lớp SQL Server
 
+ INSERT INTO HocPhi (DangKyId, KyThu, SoBuoi, SoTien, GhiChu)
+VALUES
+ (5, 1, 10, 1200000, N'Đóng kỳ 1 C# Cơ bản'),
+ (6, 1, 10, 1400000, N'Đóng kỳ 1 WPF'),
+ (7, 1, 10, 1000000, N'Đóng kỳ 1 SQL');
+
+ INSERT INTO BuoiHoc (LopHocId, SoThuTu, ThoiGianBatDau, ThoiGianKetThuc, ChuDe)
+VALUES
+ (3, 1, '2025-09-15 19:00', '2025-09-15 21:00', N'Giới thiệu C#'),
+ (4, 1, '2025-09-16 19:00', '2025-09-16 21:00', N'Giới thiệu C# nâng cao'),
+ (5, 1, '2025-09-21 08:30', '2025-09-21 11:30', N'Giới thiệu WPF & MVVM'),
+ (6, 1, '2025-09-16 19:00', '2025-09-16 21:00', N'Tổng quan SQL Server'),
+ (7, 1, '2025-09-18 19:00', '2025-09-18 21:00', N'Giới thiệu ASP.NET Core');
 
 
+ INSERT INTO DiemDanh (BuoiHocId, HocVienId, CoMat)
+VALUES
+ (1, 1, 1),
+ (2, 3, 1);
 
 
 --/* -------- 2) THỦ TỤC TẠO NGƯỜI DÙNG -------- */

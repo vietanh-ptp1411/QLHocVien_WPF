@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\GenG_Hinna\source\repos\QL_MVALab\QL_MVALab\App.xaml
-9915847127
+111673610154
 
-27-2114227253
+35-1575489958
 229398430008
-LoginWindow.xaml;MainWindow.xaml;View\Views_DangKyView.xaml;View\Views_GiangVienView.xaml;View\Views_HocPhiView.xaml;View\Views_HocVienView.xaml;View\Views_KhoaHocView.xaml;View\Views_LopHocView.xaml;View\WelcomeView.xaml;
+LoginWindow.xaml;MainWindow.xaml;View\Views_BuoiHocView.xaml;View\Views_DangKyView.xaml;View\Views_DiemDanhView.xaml;View\Views_GiangVienView.xaml;View\Views_HocPhiView.xaml;View\Views_HocVienView.xaml;View\Views_KhoaHocView.xaml;View\Views_LopHocView.xaml;View\WelcomeView.xaml;
 
 False
 

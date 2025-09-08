@@ -52,7 +52,7 @@ namespace QL_MVALab.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/QL_MVALab;V1.0.0.0;component/view/welcomeview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/QL_MVALab;component/view/welcomeview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\WelcomeView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

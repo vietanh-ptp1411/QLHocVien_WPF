@@ -23,6 +23,7 @@ namespace QL_MVALab.View
         public Views_HocPhiView()
         {
             InitializeComponent();
+            this.DataContext = new ViewModel.HocPhiViewModels();
         }
     }
 }

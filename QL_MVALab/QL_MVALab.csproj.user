@@ -23,6 +23,12 @@
     <Compile Update="View\Views_LopHocView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\Views_BuoiHocView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Views_DiemDanhView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\WelcomeView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

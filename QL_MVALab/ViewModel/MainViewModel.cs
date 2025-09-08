@@ -30,6 +30,7 @@ namespace QL_MVALab.ViewModel
             MenuItems.Add(new NavItem("Đăng ký", "\uE8C8", () => new DangKyViewModel()));
             MenuItems.Add(new NavItem("Học phí", "\uE1D3", () => new HocPhiViewModel()));
             MenuItems.Add(new NavItem("Giảng viên", "\uED7D", () => new GiangVienViewModel()));
+            MenuItems.Add(new NavItem("Buổi học", "\uED7D", () => new BuoiHocViewModel()));
 
             CurrentViewModel = new WelcomeViewModel();
             SelectedItem = MenuItems[0];
@@ -54,4 +55,5 @@ namespace QL_MVALab.ViewModel
     public partial class DangKyViewModel : ObservableObject { }
     public partial class HocPhiViewModel : ObservableObject { }
     public partial class GiangVienViewModel : ObservableObject { }
+    public partial class BuoiHocViewModel : ObservableObject { }
 }

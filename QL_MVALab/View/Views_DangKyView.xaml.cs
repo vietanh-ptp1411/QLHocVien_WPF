@@ -23,6 +23,7 @@ namespace QL_MVALab.View
         public Views_DangKyView()
         {
             InitializeComponent();
+            this.DataContext = new ViewModel.DangKyViewModels();
         }
     }
 }
