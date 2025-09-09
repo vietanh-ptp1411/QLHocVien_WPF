@@ -29,6 +29,15 @@
                     Value="25" />
         </Style>
 
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin"
+                    Value="5" />
+            <Setter Property="Padding"
+                    Value="5" />
+            <Setter Property="Height"
+                    Value="25" />
+        </Style>
+
         <Style TargetType="Label">
             <Setter Property="Margin"
                     Value="5,5,5,0" />
@@ -128,8 +137,30 @@
                                        FontWeight="Bold" />
                         </StackPanel>
 
-                        <Label Content="Buổi học ID *" />
-                        <TextBox Text="{Binding BuoiHocId, UpdateSourceTrigger=PropertyChanged}" />
+                        <Label Content="Lớp học *" />
+                        <ComboBox ItemsSource="{Binding LopHocList}"
+                                  DisplayMemberPath="TenLop"
+                                  SelectedItem="{Binding SelectedLopHoc}" />
+
+                        <Label Content="Buổi học *" />
+                        <ComboBox ItemsSource="{Binding BuoiHocList}"
+                                  SelectedItem="{Binding SelectedBuoiHoc}">
+                            <ComboBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock>
+                                        <Run Text="Buổi" />
+                                        <Run Text="{Binding BuoiThu}" />
+                                        <Run Text=": " />
+                                        <Run Text="{Binding ChuDe}" />
+                                        <Run Text=" (" />
+                                        <Run Text="{Binding ThoiGianBatDau, StringFormat={}{0:dd/MM/yyyy HH:mm}}" />
+                                        <Run Text=" - " />
+                                        <Run Text="{Binding ThoiGianKetThuc, StringFormat={}{0:HH:mm}}" />
+                                        <Run Text=")" />
+                                    </TextBlock>
+                                </DataTemplate>
+                            </ComboBox.ItemTemplate>
+                        </ComboBox>
 
                         <!-- Hiển thị thông tin buổi học (chỉ đọc) -->
                         <Label Content="Tên lớp học:" />
@@ -155,7 +186,7 @@
                                                 <Setter Property="Foreground"
                                                         Value="Gray" />
                                                 <Setter Property="Text"
-                                                        Value="💡 Nhập Buổi học ID để hiển thị thông tin" />
+                                                        Value="💡 Chọn lớp học để hiển thị thông tin" />
                                                 <Setter Property="FontWeight"
                                                         Value="Normal" />
                                             </DataTrigger>
@@ -217,8 +248,10 @@
                             </TextBlock>
                         </StackPanel>
 
-                        <Label Content="Học viên ID *" />
-                        <TextBox Text="{Binding HocVienId, UpdateSourceTrigger=PropertyChanged}" />
+                        <Label Content="Học viên *" />
+                        <ComboBox ItemsSource="{Binding HocVienList}"
+                                  DisplayMemberPath="HoTen"
+                                  SelectedItem="{Binding SelectedHocVien}" />
 
                         <!-- Hiển thị tên học viên (chỉ đọc) -->
                         <Label Content="Tên học viên:" />
@@ -244,7 +277,7 @@
                                                 <Setter Property="Foreground"
                                                         Value="Gray" />
                                                 <Setter Property="Text"
-                                                        Value="💡 Nhập Học viên ID để hiển thị thông tin" />
+                                                        Value="💡 Chọn học viên để hiển thị thông tin" />
                                                 <Setter Property="FontWeight"
                                                         Value="Normal" />
                                             </DataTrigger>
