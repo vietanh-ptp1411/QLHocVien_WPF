@@ -57,11 +57,20 @@ namespace QL_MVALab.ViewModel
         public string? TenLop { get => _tenLop; set { _tenLop = value; OnPropertyChanged(); } }
         private string? _tenLop = "";
 
-        public DateTime? ThoiGianBatDau { get => _time; set { _time = value; OnPropertyChanged(); } }
-        private DateTime? _time;
+        public DateTime? NgayHoc { get => _ngayHoc; set { _ngayHoc = value; OnPropertyChanged(); } }
+        private DateTime? _ngayHoc;
 
-        public int? BuoiThu { get => _buoiThu; set { _buoiThu = value; OnPropertyChanged(); } }
-        private int? _buoiThu;
+        public string? BuoiThu { get => _buoiThu; set { _buoiThu = value; OnPropertyChanged(); } }
+        private string? _buoiThu;
+
+        public DateTime? ThoiGianBatDau { get => _thoiGianBatDau; set { _thoiGianBatDau = value; OnPropertyChanged(); } }
+        private DateTime? _thoiGianBatDau;
+
+        public DateTime? ThoiGianKetThuc { get => _thoiGianKetThuc; set { _thoiGianKetThuc = value; OnPropertyChanged(); } }
+        private DateTime? _thoiGianKetThuc;
+
+        public string? ChuDe { get => _chuDe; set { _chuDe = value; OnPropertyChanged(); } }
+        private string? _chuDe;
 
         // Tìm kiếm
         private string? _search;
@@ -89,18 +98,18 @@ namespace QL_MVALab.ViewModel
         // ===== CRUD =====
         private void LoadData()
         {
-            
             try
             {
-                // Join với bảng DiemDanh, BuoiHoc, HocVien để lấy thông tin hiển thị
+                // Join với bảng DiemDanh, BuoiHoc, HocVien, LopHoc để lấy thông tin hiển thị
                 var dt = Connect.DataTransport(@"
                     SELECT dd.Id, dd.BuoiHocId, dd.HocVienId, dd.CoMat,
-                           bh.BuoiThu, kh.ThoiGianBatDau as BuoiHocId, hv.HoTen as HocVienId,
+                           bh.BuoiThu, bh.ThoiGianBatDau, bh.ThoiGianKetThuc, bh.ChuDe,
+                           hv.HoTen, lh.TenLop
                     FROM dbo.DiemDanh dd
                     LEFT JOIN dbo.BuoiHoc bh ON dd.BuoiHocId = bh.Id
-                    LEFT JOIN dbo.HocVien hv ON lh.KhoaHocId = hv.Id
-                    LEFT JOIN dbo.GiangVien gv ON lh.GiangVienId = gv.Id
-                    ORDER BY bh.Id ASC");
+                    LEFT JOIN dbo.HocVien hv ON dd.HocVienId = hv.Id
+                    LEFT JOIN dbo.LopHoc lh ON bh.LopHocId = lh.Id
+                    ORDER BY bh.ThoiGianBatDau DESC, hv.HoTen ASC");
 
                 DiemDanhList.Clear();
                 foreach (DataRow r in dt.Rows)
@@ -108,15 +117,16 @@ namespace QL_MVALab.ViewModel
                     DiemDanhList.Add(new DiemDanhModel
                     {
                         Id = r.Field<int>("Id"),
-                        LopHocId = r.Field<int>("LopHocId"),
+                        BuoiHocId = r.Field<int>("BuoiHocId"),
+                        HocVienId = r.Field<int>("HocVienId"),
+                        CoMat = r.Field<bool>("CoMat"),
                         BuoiThu = r.Field<string>("BuoiThu") ?? "",
-                        ThoiGianBatDau = r.Field<DateTime>("ThoiGianBatDau"),
-                        ThoiGianKetThuc = r.Field<DateTime>("ThoiGianKetThuc"),
+                        ThoiGianBatDau = r.Field<DateTime?>("ThoiGianBatDau"),
+                        ThoiGianKetThuc = r.Field<DateTime?>("ThoiGianKetThuc"),
                         ChuDe = r.Field<string>("ChuDe") ?? "",
-                        LinkBuoiHoc = r.Field<string>("LinkBuoiHoc") ?? "",
+                        HoTen = r.Field<string>("HoTen") ?? "",
                         TenLop = r.Field<string>("TenLop") ?? "",
-                        KhoaHocId = r.Field<string>("KhoaHocId") ?? "",
-                        GiangVienId = r.Field<string>("GiangVienId") ?? ""
+                        NgayHoc = r.Field<DateTime?>("ThoiGianBatDau")?.Date
                     });
                 }
                 FilteredDiemDanhList = new ObservableCollection<DiemDanhModel>(DiemDanhList);
@@ -226,7 +236,8 @@ namespace QL_MVALab.ViewModel
                     d.BuoiHocId.ToString().Contains(kw) ||
                     d.HocVienId.ToString().Contains(kw) ||
                     (d.BuoiThu?.ToString().Contains(kw) ?? false) ||
-                    d.TrangThaiText.ToLower().Contains(kw))
+                    d.TrangThaiText.ToLower().Contains(kw) ||
+                    (d.ChuDe?.ToLower().Contains(kw) ?? false))
                 .ToList();
             FilteredDiemDanhList = new ObservableCollection<DiemDanhModel>(rs);
         }
@@ -240,7 +251,10 @@ namespace QL_MVALab.ViewModel
             HoTen = "";
             TenLop = "";
             NgayHoc = null;
-            BuoiThu = null;
+            BuoiThu = "";
+            ThoiGianBatDau = null;
+            ThoiGianKetThuc = null;
+            ChuDe = "";
             SelectedDiemDanh = null;
         }
 
@@ -250,14 +264,17 @@ namespace QL_MVALab.ViewModel
             {
                 TenLop = "";
                 NgayHoc = null;
-                BuoiThu = null;
+                BuoiThu = "";
+                ThoiGianBatDau = null;
+                ThoiGianKetThuc = null;
+                ChuDe = "";
                 return;
             }
 
             try
             {
                 var dt = Connect.DataTransport($@"
-                    SELECT lh.TenLop, bh.NgayHoc, bh.BuoiThu
+                    SELECT lh.TenLop, bh.BuoiThu, bh.ThoiGianBatDau, bh.ThoiGianKetThuc, bh.ChuDe
                     FROM dbo.BuoiHoc bh
                     LEFT JOIN dbo.LopHoc lh ON bh.LopHocId = lh.Id
                     WHERE bh.Id = {BuoiHocId.Value};");
@@ -266,14 +283,20 @@ namespace QL_MVALab.ViewModel
                 {
                     var row = dt.Rows[0];
                     TenLop = row["TenLop"]?.ToString() ?? "";
-                    NgayHoc = row["NgayHoc"] == DBNull.Value ? (DateTime?)null : Convert.ToDateTime(row["NgayHoc"]);
-                    BuoiThu = row["BuoiThu"] == DBNull.Value ? (int?)null : Convert.ToInt32(row["BuoiThu"]);
+                    BuoiThu = row["BuoiThu"]?.ToString() ?? "";
+                    ThoiGianBatDau = row["ThoiGianBatDau"] == DBNull.Value ? (DateTime?)null : Convert.ToDateTime(row["ThoiGianBatDau"]);
+                    ThoiGianKetThuc = row["ThoiGianKetThuc"] == DBNull.Value ? (DateTime?)null : Convert.ToDateTime(row["ThoiGianKetThuc"]);
+                    ChuDe = row["ChuDe"]?.ToString() ?? "";
+                    NgayHoc = ThoiGianBatDau?.Date;
                 }
                 else
                 {
                     TenLop = "Không tìm thấy thông tin buổi học";
                     NgayHoc = null;
-                    BuoiThu = null;
+                    BuoiThu = "";
+                    ThoiGianBatDau = null;
+                    ThoiGianKetThuc = null;
+                    ChuDe = "";
                 }
             }
             catch (Exception ex)
@@ -281,7 +304,10 @@ namespace QL_MVALab.ViewModel
                 MessageBox.Show($"Lỗi tải thông tin Buổi học: {ex.Message}");
                 TenLop = "Lỗi tải dữ liệu";
                 NgayHoc = null;
-                BuoiThu = null;
+                BuoiThu = "";
+                ThoiGianBatDau = null;
+                ThoiGianKetThuc = null;
+                ChuDe = "";
             }
         }
 

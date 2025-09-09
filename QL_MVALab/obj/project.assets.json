@@ -4894,11 +4894,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\QL_MVALab.csproj",
+      "projectUniqueName": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\QL_MVALab.csproj",
       "projectName": "QL_MVALab",
-      "projectPath": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\QL_MVALab.csproj",
+      "projectPath": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\QL_MVALab.csproj",
       "packagesPath": "C:\\Users\\GenG_Hinna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\obj\\",
+      "outputPath": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

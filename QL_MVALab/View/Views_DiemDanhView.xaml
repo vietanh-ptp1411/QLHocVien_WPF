@@ -170,7 +170,7 @@
                                     Margin="0,0,0,5">
                             <Label Content="Ngày học:"
                                    Width="80" />
-                            <TextBlock Text="{Binding ThoiGianBatDau, StringFormat={}{0:dd/MM/yyyy }}"
+                            <TextBlock Text="{Binding NgayHoc, StringFormat={}{0:dd/MM/yyyy}}"
                                        VerticalAlignment="Center"
                                        Margin="5,5,15,0"
                                        FontStyle="Italic"
@@ -178,7 +178,7 @@
                         </StackPanel>
 
                         <StackPanel Orientation="Horizontal"
-                                    Margin="0,0,0,10">
+                                    Margin="0,0,0,5">
                             <Label Content="Buổi thứ:"
                                    Width="80" />
                             <TextBlock Text="{Binding BuoiThu}"
@@ -186,6 +186,35 @@
                                        Margin="5,5,15,0"
                                        FontStyle="Italic"
                                        Foreground="Blue" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="0,0,0,5">
+                            <Label Content="Chủ đề:"
+                                   Width="80" />
+                            <TextBlock Text="{Binding ChuDe}"
+                                       VerticalAlignment="Center"
+                                       Margin="5,5,15,0"
+                                       FontStyle="Italic"
+                                       Foreground="Blue"
+                                       TextWrapping="Wrap" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="0,0,0,5">
+                            <Label Content="Giờ học:"
+                                   Width="80" />
+                            <TextBlock VerticalAlignment="Center"
+                                       Margin="5,5,15,0"
+                                       FontStyle="Italic"
+                                       Foreground="Blue">
+                                <TextBlock.Text>
+                                    <MultiBinding StringFormat="{}{0:HH:mm} - {1:HH:mm}">
+                                        <Binding Path="ThoiGianBatDau" />
+                                        <Binding Path="ThoiGianKetThuc" />
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
                         </StackPanel>
 
                         <Label Content="Học viên ID *" />
@@ -410,6 +439,11 @@
                                    BasedOn="{StaticResource CenterCell}" />
                         </DataGridTextColumn.ElementStyle>
                     </DataGridTextColumn>
+
+                    <DataGridTextColumn Header="Chủ đề"
+                                        Binding="{Binding ChuDe}"
+                                        MinWidth="150"
+                                        ElementStyle="{StaticResource CellText}" />
 
                     <DataGridTextColumn Header="Trạng thái"
                                         Binding="{Binding TrangThaiText}"

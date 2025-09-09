@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jbpdMAlz2yk=",
+  "dgSpecHash": "OnQcMytrxD4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\GenG_Hinna\\source\\repos\\QL_MVALab\\QL_MVALab\\QL_MVALab.csproj",
+  "projectFilePath": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\QL_MVALab.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GenG_Hinna\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\GenG_Hinna\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
