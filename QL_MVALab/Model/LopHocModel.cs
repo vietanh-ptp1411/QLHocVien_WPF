@@ -22,7 +22,7 @@ namespace QL_MVALab.Model
 
         public override string ToString()
         {
-            return DisplayText;
+            return DisplayText; 
         }
 
     }

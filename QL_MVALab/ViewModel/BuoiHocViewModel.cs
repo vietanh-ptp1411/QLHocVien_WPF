@@ -22,6 +22,9 @@ namespace QL_MVALab.ViewModel
             set { _filtered = value; OnPropertyChanged(); }
         }
 
+        // Danh sách lớp học cho ComboBox
+        public ObservableCollection<LopHocModel> LopHocList { get; private set; } = new();
+
         // Bản ghi đang chọn + các ô nhập
         private BuoiHocModel? _selected;
         public BuoiHocModel? SelectedBuoiHoc
@@ -41,13 +44,40 @@ namespace QL_MVALab.ViewModel
                 TenLop = value.TenLop;
                 KhoaHocId = value.KhoaHocId;
                 GiangVienId = value.GiangVienId;
+                SelectedLopHoc = LopHocList.FirstOrDefault(l => l.Id == value.LopHocId);
+            }
+        }
+
+        // Selected LopHoc cho ComboBox
+        private LopHocModel? _selectedLopHoc;
+        public LopHocModel? SelectedLopHoc
+        {
+            get => _selectedLopHoc;
+            set
+            {
+                _selectedLopHoc = value;
+                OnPropertyChanged();
+                if (value != null)
+                {
+                    LopHocId = value.Id;
+                    TenLop = value.TenLop;
+                    KhoaHocId = value.TenKhoaHoc; // Hiển thị tên khóa học
+                    GiangVienId = value.TenGiangVien; // Hiển thị tên giảng viên
+                }
+                else
+                {
+                    LopHocId = null;
+                    TenLop = "";
+                    KhoaHocId = "";
+                    GiangVienId = "";
+                }
             }
         }
 
         public int? Id { get => _id; set { _id = value; OnPropertyChanged(); } }
         private int? _id;
 
-        public int? LopHocId { get => _lhid; set { _lhid = value; OnPropertyChanged(); LoadThongTinFromLopHocId(); } }
+        public int? LopHocId { get => _lhid; set { _lhid = value; OnPropertyChanged(); } }
         private int? _lhid;
 
         public string BuoiThu { get => _bt; set { _bt = value; OnPropertyChanged(); } }
@@ -78,21 +108,6 @@ namespace QL_MVALab.ViewModel
         // Tìm kiếm
         private string? _search;
         public string? SearchText { get => _search; set { _search = value; OnPropertyChanged(); Search(); } }
-
-        // Danh sách cho ComboBox
-        public ObservableCollection<string> BuoiThuOptions { get; } = new()
-        {
-            "1", "2", "3", "4", "5", "6", "7"
-        };
-
-        public ObservableCollection<DateTime> ThoiGianOptions { get; } = new()
-        {
-            DateTime.Today.AddHours(20),   // 7:00 AM
-            DateTime.Today.AddHours(21),   // 8:00 AM
-            DateTime.Today.AddHours(22),   // 9:00 AM
-            DateTime.Today.AddHours(23),  // 10:00 AM
-            DateTime.Today.AddHours(0),  // 10:00 AM
-        };
 
         // Command
         public ICommand AddCommand { get; }
@@ -151,10 +166,40 @@ namespace QL_MVALab.ViewModel
                     });
                 }
                 FilteredBuoiHocList = new ObservableCollection<BuoiHocModel>(BuoiHocList);
+                LoadLopHocList();
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Lỗi tải dữ liệu: {ex.Message}");
+            }
+        }
+
+        private void LoadLopHocList()
+        {
+            try
+            {
+                var dt = Connect.DataTransport(@"
+                    SELECT lh.Id, lh.TenLop, kh.TenKhoa , gv.HoTen 
+                    FROM dbo.LopHoc lh
+                    LEFT JOIN dbo.KhoaHoc kh ON lh.KhoaHocId = kh.Id
+                    LEFT JOIN dbo.GiangVien gv ON lh.GiangVienId = gv.Id
+                    ORDER BY lh.TenLop ASC");
+
+                LopHocList.Clear();
+                foreach (DataRow r in dt.Rows)
+                {
+                    LopHocList.Add(new LopHocModel
+                    {
+                        Id = r.Field<int>("Id"),
+                        TenLop = r.Field<string>("TenLop") ?? "",
+                        TenKhoaHoc = r.Field<string>("TenKhoa") ?? "",
+                        TenGiangVien = r.Field<string>("HoTen") ?? ""
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi tải danh sách lớp học: {ex.Message}");
             }
         }
 
@@ -276,6 +321,7 @@ namespace QL_MVALab.ViewModel
         private void Clear()
         {
             Id = null;
+            SelectedLopHoc = null;
             LopHocId = null;
             BuoiThu = "";
             ThoiGianBatDau = DateTime.Now; // Ngày giờ hiện tại
@@ -286,51 +332,6 @@ namespace QL_MVALab.ViewModel
             KhoaHocId = "";
             GiangVienId = "";
             SelectedBuoiHoc = null;
-        }
-
-        // Load thông tin lớp học khi nhập LopHocId
-        private void LoadThongTinFromLopHocId()
-        {
-            if (!LopHocId.HasValue || LopHocId <= 0)
-            {
-                TenLop = "";
-                KhoaHocId = "";
-                GiangVienId = "";
-                return;
-            }
-
-            try
-            {
-                var dt = Connect.DataTransport($@"
-                    SELECT lh.TenLop, kh.TenKhoa, gv.HoTen
-                    FROM dbo.LopHoc lh 
-                    LEFT JOIN dbo.KhoaHoc kh ON lh.KhoaHocId = kh.Id
-                    LEFT JOIN dbo.GiangVien gv ON lh.GiangVienId = gv.Id
-                    WHERE lh.Id = {LopHocId.Value}");
-
-                if (dt.Rows.Count > 0)
-                {
-                    string tenLop = dt.Rows[0].Field<string>("TenLop") ?? "";
-                    string tenKhoa = dt.Rows[0].Field<string>("TenKhoa") ?? "";
-                    string hoTenGV = dt.Rows[0].Field<string>("HoTen") ?? "";
-
-                    TenLop = tenLop;
-                    KhoaHocId = tenKhoa;
-                    GiangVienId = hoTenGV;
-                }
-                else
-                {
-                    TenLop = "⚠️ Không tìm thấy lớp học này";
-                    KhoaHocId = "";
-                    GiangVienId = "";
-                }
-            }
-            catch (Exception ex)
-            {
-                TenLop = $"❌ Lỗi: {ex.Message}";
-                KhoaHocId = "";
-                GiangVienId = "";
-            }
         }
 
         private static string Esc(string? s)

@@ -12,9 +12,9 @@ namespace QL_MVALab.Model
         public string ChuDe { get; set; } = "";
         public string LinkBuoiHoc { get; set; } = "";
 
-        // Thông tin từ LopHoc để hiển thị
-        public string TenLop { get; set; } = ""; // Tên lớp học
-        public string KhoaHocId { get; set; } = ""; // Mã khóa học
-        public string GiangVienId { get; set; } = ""; // Tên giảng viên
+        // Thông tin hiển thị từ join với các bảng khác
+        public string TenLop { get; set; } = ""; // Từ bảng LopHoc
+        public string KhoaHocId { get; set; } = ""; // Từ bảng KhoaHoc (TenKhoa)
+        public string GiangVienId { get; set; } = ""; // Từ bảng GiangVien (HoTen)
     }
 }

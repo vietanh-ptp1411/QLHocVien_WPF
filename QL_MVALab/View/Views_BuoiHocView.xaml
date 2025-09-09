@@ -131,9 +131,11 @@
                                        FontWeight="Bold" />
                         </StackPanel>
 
-                        <Label Content="Lớp học ID *" />
-                        <TextBox Text="{Binding LopHocId, UpdateSourceTrigger=PropertyChanged}"
-                                 ToolTip="Nhập ID lớp học để tự động hiển thị thông tin lớp" />
+                        <Label Content="Lớp học *" />
+                        <ComboBox ItemsSource="{Binding LopHocList}"
+                                  DisplayMemberPath="TenLop"
+                                  SelectedItem="{Binding SelectedLopHoc}"
+                                  ToolTip="Chọn lớp học từ danh sách" />
 
                         <!-- Hiển thị thông tin lớp học (tự động load) -->
                         <Label Content="Tên lớp:" />
@@ -159,7 +161,7 @@
                                                 <Setter Property="Foreground"
                                                         Value="Gray" />
                                                 <Setter Property="Text"
-                                                        Value="💡 Nhập Lớp học ID để hiển thị thông tin lớp" />
+                                                        Value="💡 Chọn lớp học để hiển thị thông tin lớp" />
                                                 <Setter Property="FontWeight"
                                                         Value="Normal" />
                                             </DataTrigger>
@@ -237,10 +239,10 @@
                                          Height="25"
                                          ToolTip="Chọn giờ kết thúc"
                                          Format="Custom"
-                                         FormatString="HH:mm" 
+                                         FormatString="HH:mm"
                                          HorizontalAlignment="Left"
                                          HorizontalContentAlignment="Center"
-                                         Width="100"/>
+                                         Width="100" />
 
 
 
@@ -434,7 +436,7 @@
                                         MinWidth="150"
                                         Width="*"
                                         ElementStyle="{StaticResource CellText}" />
-                    
+
                     <DataGridTextColumn Header="Link buổi học"
                                         Binding="{Binding LinkBuoiHoc}"
                                         MinWidth="150"
@@ -443,7 +445,6 @@
 
                 </DataGrid.Columns>
             </DataGrid>
-
         </Grid>
     </Grid>
 </UserControl>

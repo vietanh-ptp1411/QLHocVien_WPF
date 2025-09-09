@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "D:\\BTapWPF\\QLHocVien_WPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\viewmodel\\diemdanhviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\diemdanhviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\viewmodel\\buoihocviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\buoihocviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\model\\diemdanhmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\diemdanhmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\model\\lophocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\lophocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\view\\views_buoihocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_buoihocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\model\\buoihocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\buoihocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\viewmodel\\diemdanhviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\diemdanhviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\view\\views_khoahocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_khoahocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\viewmodel\\giangvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\giangvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\model\\khoahocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\khoahocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\viewmodel\\dangkyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\dangkyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\model\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\model\\diemdanhmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\diemdanhmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\viewmodel\\lophocviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,14 +67,6 @@
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_diemdanhview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\model\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\viewmodel\\dangkyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\dangkyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\view\\views_dangkyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_dangkyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -53,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\view\\views_diemdanhview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_diemdanhview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\view\\views_khoahocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_khoahocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\view\\views_khoahocview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,14 +98,6 @@
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_hocvienview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\view\\views_buoihocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_buoihocview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\model\\buoihocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\buoihocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\view\\views_buoihocview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\views_buoihocview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -104,10 +116,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\view\\welcomeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\view\\welcomeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\viewmodel\\giangvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\giangvienviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -169,10 +177,6 @@
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\viewmodel\\khoahocviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\khoahocviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -187,10 +191,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|d:\\btapwpf\\qlhocvien_wpf\\ql_mvalab\\model\\khoahocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAA7AC8-4C3A-41CC-ADEE-C45F0E740900}|QL_MVALab\\QL_MVALab.csproj|solutionrelative:ql_mvalab\\model\\khoahocmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\obj\\Debug\\net8.0-windows\\View\\Views_LopHocView.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -212,170 +212,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DiemDanhModel.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\DiemDanhModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\Model\\DiemDanhModel.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\DiemDanhModel.cs",
-              "RelativeToolTip": "QL_MVALab\\Model\\DiemDanhModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "BuoiHocModel.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\BuoiHocModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\Model\\BuoiHocModel.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\BuoiHocModel.cs",
+              "RelativeToolTip": "QL_MVALab\\Model\\BuoiHocModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T10:23:45.544Z",
+              "WhenOpened": "2025-09-06T07:18:12.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DiemDanhViewModel.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\DiemDanhViewModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\DiemDanhViewModel.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\DiemDanhViewModel.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\DiemDanhViewModel.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAvwHgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T04:36:57.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DangKyModel.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\DangKyModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\Model\\DangKyModel.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\DangKyModel.cs",
-              "RelativeToolTip": "QL_MVALab\\Model\\DangKyModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T07:16:04.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LopHocModel.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\LopHocModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\Model\\LopHocModel.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\LopHocModel.cs",
-              "RelativeToolTip": "QL_MVALab\\Model\\LopHocModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T04:05:04.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HocVienModel.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\HocVienModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\Model\\HocVienModel.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\HocVienModel.cs",
-              "RelativeToolTip": "QL_MVALab\\Model\\HocVienModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T11:00:45.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LopHocViewModel.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\LopHocViewModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\LopHocViewModel.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\LopHocViewModel.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\LopHocViewModel.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAvwKIAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:38:11.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "BuoiHocViewModel.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\BuoiHocViewModel.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\BuoiHocViewModel.cs",
               "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\BuoiHocViewModel.cs",
               "RelativeToolTip": "QL_MVALab\\ViewModel\\BuoiHocViewModel.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAmwJUAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwEAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T04:36:37.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Views_DiemDanhView.xaml",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DiemDanhView.xaml",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_DiemDanhView.xaml",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DiemDanhView.xaml",
-              "RelativeToolTip": "QL_MVALab\\View\\Views_DiemDanhView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-07T03:16:42.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DangKyViewModel.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\DangKyViewModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\DangKyViewModel.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\DangKyViewModel.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\DangKyViewModel.cs",
-              "ViewState": "AgIAABECAAAAAAAAAAA4wPACAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:38:29.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BaseModel.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\BaseModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\Model\\BaseModel.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\BaseModel.cs",
-              "RelativeToolTip": "QL_MVALab\\Model\\BaseModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T03:55:34.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Views_DangKyView.xaml",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DangKyView.xaml",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_DangKyView.xaml",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DangKyView.xaml",
-              "RelativeToolTip": "QL_MVALab\\View\\Views_DangKyView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-03T07:56:03.554Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Views_DangKyView.xaml.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DangKyView.xaml.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_DangKyView.xaml.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DangKyView.xaml.cs",
-              "RelativeToolTip": "QL_MVALab\\View\\Views_DangKyView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T08:06:52.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Views_DiemDanhView.xaml.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DiemDanhView.xaml.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_DiemDanhView.xaml.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DiemDanhView.xaml.cs",
-              "RelativeToolTip": "QL_MVALab\\View\\Views_DiemDanhView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T03:19:29.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "Views_KhoaHocView.xaml",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_KhoaHocView.xaml",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_KhoaHocView.xaml",
@@ -387,65 +250,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Views_KhoaHocView.xaml.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
-              "RelativeToolTip": "QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "DiemDanhViewModel.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\DiemDanhViewModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\DiemDanhViewModel.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\DiemDanhViewModel.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\DiemDanhViewModel.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAUwKYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T09:15:48.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HocVienViewModel.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\HocVienViewModel.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\HocVienViewModel.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAADwv44AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:38:02.869Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Views_HocVienView.xaml.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_HocVienView.xaml.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_HocVienView.xaml.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_HocVienView.xaml.cs",
-              "RelativeToolTip": "QL_MVALab\\View\\Views_HocVienView.xaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAowA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T08:20:22.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Views_HocVienView.xaml",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_HocVienView.xaml",
-              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_HocVienView.xaml",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_HocVienView.xaml",
-              "RelativeToolTip": "QL_MVALab\\View\\Views_HocVienView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-03T07:53:45.476Z",
+              "WhenOpened": "2025-09-07T04:36:57.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HocVienViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\AppData\\Local\\SourceServer\\c25579fa6fdb4447e21d884994e3a84a23033db70e08e286a337edafdcebf71f\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
-              "ToolTip": "C:\\Users\\GenG_Hinna\\AppData\\Local\\SourceServer\\c25579fa6fdb4447e21d884994e3a84a23033db70e08e286a337edafdcebf71f\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAswGAAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T05:02:12.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 2,
               "Title": "Views_BuoiHocView.xaml",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_BuoiHocView.xaml",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_BuoiHocView.xaml",
@@ -457,7 +275,236 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LopHocModel.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\LopHocModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\Model\\LopHocModel.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\LopHocModel.cs",
+              "RelativeToolTip": "QL_MVALab\\Model\\LopHocModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T04:05:04.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GiangVienViewModel.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAwBMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:38:46.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KhoaHocModel.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\KhoaHocModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\Model\\KhoaHocModel.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\KhoaHocModel.cs",
+              "RelativeToolTip": "QL_MVALab\\Model\\KhoaHocModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T07:28:13.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DangKyViewModel.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\DangKyViewModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\DangKyViewModel.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\DangKyViewModel.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\DangKyViewModel.cs",
+              "ViewState": "AgIAAG0BAAAAAAAAAAAxwIUBAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:38:29.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\BaseViewModel.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\BaseViewModel.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T10:49:49.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\BaseModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\Model\\BaseModel.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\BaseModel.cs",
+              "RelativeToolTip": "QL_MVALab\\Model\\BaseModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T03:55:34.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DangKyModel.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\DangKyModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\Model\\DangKyModel.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\DangKyModel.cs",
+              "RelativeToolTip": "QL_MVALab\\Model\\DangKyModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T07:16:04.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DiemDanhModel.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\DiemDanhModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\Model\\DiemDanhModel.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\DiemDanhModel.cs",
+              "RelativeToolTip": "QL_MVALab\\Model\\DiemDanhModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T10:23:45.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HocVienModel.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\HocVienModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\Model\\HocVienModel.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\HocVienModel.cs",
+              "RelativeToolTip": "QL_MVALab\\Model\\HocVienModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T11:00:45.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LopHocViewModel.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\LopHocViewModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\LopHocViewModel.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\LopHocViewModel.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\LopHocViewModel.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAvwKIAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:38:11.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Views_DiemDanhView.xaml",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DiemDanhView.xaml",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_DiemDanhView.xaml",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DiemDanhView.xaml",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_DiemDanhView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-07T03:16:42.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Views_DangKyView.xaml",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DangKyView.xaml",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_DangKyView.xaml",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DangKyView.xaml",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_DangKyView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-03T07:56:03.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Views_DangKyView.xaml.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DangKyView.xaml.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_DangKyView.xaml.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DangKyView.xaml.cs",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_DangKyView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T08:06:52.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Views_DiemDanhView.xaml.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DiemDanhView.xaml.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_DiemDanhView.xaml.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_DiemDanhView.xaml.cs",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_DiemDanhView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T03:19:29.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Views_KhoaHocView.xaml.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_KhoaHocView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T09:15:48.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HocVienViewModel.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\HocVienViewModel.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
+              "RelativeToolTip": "QL_MVALab\\ViewModel\\HocVienViewModel.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAADwv44AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:38:02.869Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "Views_HocVienView.xaml.cs",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_HocVienView.xaml.cs",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_HocVienView.xaml.cs",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_HocVienView.xaml.cs",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_HocVienView.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T08:20:22.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Views_HocVienView.xaml",
+              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_HocVienView.xaml",
+              "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_HocVienView.xaml",
+              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_HocVienView.xaml",
+              "RelativeToolTip": "QL_MVALab\\View\\Views_HocVienView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-03T07:53:45.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HocVienViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\GenG_Hinna\\AppData\\Local\\SourceServer\\c25579fa6fdb4447e21d884994e3a84a23033db70e08e286a337edafdcebf71f\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
+              "ToolTip": "C:\\Users\\GenG_Hinna\\AppData\\Local\\SourceServer\\c25579fa6fdb4447e21d884994e3a84a23033db70e08e286a337edafdcebf71f\\QL_MVALab\\ViewModel\\HocVienViewModel.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAswGAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T05:02:12.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Views_BuoiHocView.xaml.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_BuoiHocView.xaml.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_BuoiHocView.xaml.cs",
@@ -469,19 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "BuoiHocModel.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\BuoiHocModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\Model\\BuoiHocModel.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\BuoiHocModel.cs",
-              "RelativeToolTip": "QL_MVALab\\Model\\BuoiHocModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T07:18:12.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Views_GiangVienView.xaml.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_GiangVienView.xaml.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_GiangVienView.xaml.cs",
@@ -493,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Views_HocPhiView.xaml.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_HocPhiView.xaml.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_HocPhiView.xaml.cs",
@@ -505,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "Views_LopHocView.xaml.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_LopHocView.xaml.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_LopHocView.xaml.cs",
@@ -517,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "WelcomeView.xaml.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\WelcomeView.xaml.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\WelcomeView.xaml.cs",
@@ -529,19 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "GiangVienViewModel.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\GiangVienViewModel.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAYwBMAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T07:38:46.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\MainViewModel.cs",
@@ -553,31 +576,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\MainWindow.xaml",
               "RelativeDocumentMoniker": "QL_MVALab\\MainWindow.xaml",
               "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\MainWindow.xaml",
               "RelativeToolTip": "QL_MVALab\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-02T17:02:50.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T17:02:50.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Views_HocPhiView.xaml",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_HocPhiView.xaml",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_HocPhiView.xaml",
               "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_HocPhiView.xaml",
               "RelativeToolTip": "QL_MVALab\\View\\Views_HocPhiView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-03T07:56:30.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T07:56:30.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "HocPhiModel.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\HocPhiModel.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\Model\\HocPhiModel.cs",
@@ -589,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "HocPhiViewModel.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\HocPhiViewModel.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\HocPhiViewModel.cs",
@@ -601,19 +622,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "WelcomeView.xaml",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\WelcomeView.xaml",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\WelcomeView.xaml",
               "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\WelcomeView.xaml",
               "RelativeToolTip": "QL_MVALab\\View\\WelcomeView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-03T09:03:23.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T09:03:23.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "GiangVienModel.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\GiangVienModel.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\Model\\GiangVienModel.cs",
@@ -625,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\MainWindow.xaml.cs",
@@ -637,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "NavItem.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\NavItem.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\NavItem.cs",
@@ -649,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -659,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "LoginWindow.xaml.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\LoginWindow.xaml.cs",
@@ -671,19 +691,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "LoginWindow.xaml",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\LoginWindow.xaml",
               "RelativeDocumentMoniker": "QL_MVALab\\LoginWindow.xaml",
               "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\LoginWindow.xaml",
               "RelativeToolTip": "QL_MVALab\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-03T08:11:26.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T08:11:26.931Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\App.xaml",
               "RelativeDocumentMoniker": "QL_MVALab\\App.xaml",
@@ -695,7 +714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\AssemblyInfo.cs",
@@ -707,7 +726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\App.xaml.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\App.xaml.cs",
@@ -719,19 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\BaseViewModel.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\BaseViewModel.cs",
-              "RelativeToolTip": "QL_MVALab\\ViewModel\\BaseViewModel.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAADwv18AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T10:49:49.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "KhoaHocViewModel.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\KhoaHocViewModel.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\KhoaHocViewModel.cs",
@@ -743,31 +750,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Views_LopHocView.xaml",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_LopHocView.xaml",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_LopHocView.xaml",
               "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_LopHocView.xaml",
               "RelativeToolTip": "QL_MVALab\\View\\Views_LopHocView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-03T07:55:24.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T07:55:24.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "Views_GiangVienView.xaml",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_GiangVienView.xaml",
               "RelativeDocumentMoniker": "QL_MVALab\\View\\Views_GiangVienView.xaml",
               "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\View\\Views_GiangVienView.xaml",
               "RelativeToolTip": "QL_MVALab\\View\\Views_GiangVienView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-03T07:56:52.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T07:56:52.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\ViewModel\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "QL_MVALab\\ViewModel\\LoginViewModel.cs",
@@ -776,18 +781,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T10:24:53.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "KhoaHocModel.cs",
-              "DocumentMoniker": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\KhoaHocModel.cs",
-              "RelativeDocumentMoniker": "QL_MVALab\\Model\\KhoaHocModel.cs",
-              "ToolTip": "D:\\BTapWPF\\QLHocVien_WPF\\QL_MVALab\\Model\\KhoaHocModel.cs",
-              "RelativeToolTip": "QL_MVALab\\Model\\KhoaHocModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T07:28:13.041Z"
             },
             {
               "$type": "Document",

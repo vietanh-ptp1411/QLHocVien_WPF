@@ -50,7 +50,7 @@ namespace QL_MVALab.ViewModel
 
         public int? HocVienId { get => _hocVienId; set { _hocVienId = value; OnPropertyChanged(); } }
         private int? _hocVienId;
-
+       
         public bool CoMat { get => _coMat; set { _coMat = value; OnPropertyChanged(); } }
         private bool _coMat = true;
 
