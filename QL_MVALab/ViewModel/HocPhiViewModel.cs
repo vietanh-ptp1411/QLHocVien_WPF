@@ -22,6 +22,11 @@ namespace QL_MVALab.ViewModel
             set { _filtered = value; OnPropertyChanged(); }
         }
 
+        // Danh sách cho ComboBox
+        public ObservableCollection<LopHocModel> LopHocList { get; private set; } = new();
+        public ObservableCollection<HocVienModel> HocVienList { get; private set; } = new();
+        public ObservableCollection<DangKyModel> DangKyList { get; private set; } = new();
+
         // Bản ghi đang chọn + các ô nhập
         private HocPhiModel? _selected;
         public HocPhiModel? SelectedHocPhi
@@ -38,14 +43,42 @@ namespace QL_MVALab.ViewModel
                 SoTien = value.SoTien;
                 NgayDong = value.NgayDong;
                 GhiChu = value.GhiChu;
+
+                // Cập nhật ComboBox selection
+                UpdateComboBoxFromDangKyId();
             }
         }
 
         public int? Id { get => _id; set { _id = value; OnPropertyChanged(); } }
         private int? _id;
 
-        public int? DangKyId { get => _dkid; set { _dkid = value; OnPropertyChanged(); LoadThongTinFromDangKyId(); } }
+        public int? DangKyId { get => _dkid; set { _dkid = value; OnPropertyChanged(); } }
         private int? _dkid;
+
+        // ComboBox selections
+        private LopHocModel? _selectedLopHoc;
+        public LopHocModel? SelectedLopHoc
+        {
+            get => _selectedLopHoc;
+            set
+            {
+                _selectedLopHoc = value;
+                OnPropertyChanged();
+                LoadHocVienByLopHoc();
+            }
+        }
+
+        private HocVienModel? _selectedHocVien;
+        public HocVienModel? SelectedHocVien
+        {
+            get => _selectedHocVien;
+            set
+            {
+                _selectedHocVien = value;
+                OnPropertyChanged();
+                LoadDangKyId();
+            }
+        }
 
         public int KyThu { get => _KyThu; set { _KyThu = value; OnPropertyChanged(); } }
         private int _KyThu;
@@ -89,7 +122,137 @@ namespace QL_MVALab.ViewModel
             SearchCommand = new RelayCommand<object>(_ => true, _ => Search());
             ClearCommand = new RelayCommand<object>(_ => true, _ => Clear());
             RefreshCommand = new RelayCommand<object>(_ => true, _ => LoadData());
+
+            LoadLopHocList();
             LoadData();
+        }
+
+        // ===== Load dữ liệu ComboBox =====
+        private void LoadLopHocList()
+        {
+            try
+            {
+                var dt = Connect.DataTransport("SELECT Id, TenLop FROM dbo.LopHoc ORDER BY TenLop");
+                LopHocList.Clear();
+                foreach (DataRow r in dt.Rows)
+                {
+                    LopHocList.Add(new LopHocModel
+                    {
+                        Id = r.Field<int>("Id"),
+                        TenLop = r.Field<string>("TenLop") ?? ""
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi tải danh sách lớp học: {ex.Message}");
+            }
+        }
+
+        private void LoadHocVienByLopHoc()
+        {
+            HocVienList.Clear();
+            SelectedHocVien = null;
+            DangKyId = null;
+
+            if (SelectedLopHoc == null) return;
+
+            try
+            {
+                var dt = Connect.DataTransport($@"
+                    SELECT DISTINCT hv.Id, hv.HoTen 
+                    FROM dbo.HocVien hv
+                    INNER JOIN dbo.DangKy dk ON hv.Id = dk.HocVienId
+                    WHERE dk.LopHocId = {SelectedLopHoc.Id}
+                    ORDER BY hv.HoTen");
+
+                foreach (DataRow r in dt.Rows)
+                {
+                    HocVienList.Add(new HocVienModel
+                    {
+                        Id = r.Field<int>("Id"),
+                        HoTen = r.Field<string>("HoTen") ?? ""
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi tải danh sách học viên: {ex.Message}");
+            }
+        }
+
+        private void LoadDangKyId()
+        {
+            if (SelectedLopHoc == null || SelectedHocVien == null)
+            {
+                DangKyId = null;
+                HoTen = "";
+                TenLop = "";
+                return;
+            }
+
+            try
+            {
+                var dt = Connect.DataTransport($@"
+                    SELECT dk.Id
+                    FROM dbo.DangKy dk
+                    WHERE dk.LopHocId = {SelectedLopHoc.Id} AND dk.HocVienId = {SelectedHocVien.Id}");
+
+                if (dt.Rows.Count > 0)
+                {
+                    DangKyId = dt.Rows[0].Field<int>("Id");
+                    HoTen = SelectedHocVien.HoTen;
+                    TenLop = SelectedLopHoc.TenLop;
+                }
+                else
+                {
+                    DangKyId = null;
+                    HoTen = "Không tìm thấy đăng ký";
+                    TenLop = "Không tìm thấy đăng ký";
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi tải thông tin đăng ký: {ex.Message}");
+                DangKyId = null;
+                HoTen = "Lỗi tải dữ liệu";
+                TenLop = "Lỗi tải dữ liệu";
+            }
+        }
+
+        private void UpdateComboBoxFromDangKyId()
+        {
+            if (!DangKyId.HasValue || DangKyId <= 0) return;
+
+            try
+            {
+                var dt = Connect.DataTransport($@"
+                    SELECT dk.LopHocId, dk.HocVienId, lh.TenLop, hv.HoTen
+                    FROM dbo.DangKy dk
+                    LEFT JOIN dbo.LopHoc lh ON dk.LopHocId = lh.Id
+                    LEFT JOIN dbo.HocVien hv ON dk.HocVienId = hv.Id
+                    WHERE dk.Id = {DangKyId.Value}");
+
+                if (dt.Rows.Count > 0)
+                {
+                    var lopHocId = dt.Rows[0].Field<int>("LopHocId");
+                    var hocVienId = dt.Rows[0].Field<int>("HocVienId");
+
+                    SelectedLopHoc = LopHocList.FirstOrDefault(x => x.Id == lopHocId);
+
+                    // Load học viên cho lớp này
+                    LoadHocVienByLopHoc();
+
+                    SelectedHocVien = HocVienList.FirstOrDefault(x => x.Id == hocVienId);
+
+                    HoTen = dt.Rows[0].Field<string>("HoTen") ?? "";
+                    TenLop = dt.Rows[0].Field<string>("TenLop") ?? "";
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi cập nhật ComboBox: {ex.Message}");
+            }
         }
 
         // ===== CRUD =====
@@ -246,6 +409,8 @@ namespace QL_MVALab.ViewModel
         {
             Id = null;
             DangKyId = null;
+            SelectedLopHoc = null;
+            SelectedHocVien = null;
             KyThu = 0;
             SoBuoi = null;
             SoTien = 0;
@@ -256,43 +421,6 @@ namespace QL_MVALab.ViewModel
             SelectedHocPhi = null;
         }
 
-        private void LoadThongTinFromDangKyId()
-        {
-            if (!DangKyId.HasValue || DangKyId <= 0)
-            {
-                HoTen = "";
-                TenLop = "";
-                return;
-            }
-
-            try
-            {
-                var dt = Connect.DataTransport($@"
-                    SELECT hv.HoTen, lh.TenLop
-                    FROM dbo.DangKy dk
-                    LEFT JOIN dbo.HocVien hv ON dk.HocVienId = hv.Id
-                    LEFT JOIN dbo.LopHoc lh ON dk.LopHocId = lh.Id
-                    WHERE dk.Id = {DangKyId.Value};");
-
-                if (dt.Rows.Count > 0)
-                {
-                    HoTen = dt.Rows[0].Field<string>("HoTen") ?? "";
-                    TenLop = dt.Rows[0].Field<string>("TenLop") ?? "";
-                }
-                else
-                {
-                    HoTen = "Không tìm thấy thông tin đăng ký";
-                    TenLop = "Không tìm thấy thông tin đăng ký";
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Lỗi tải thông tin Đăng Ký: {ex.Message}");
-                HoTen = "Lỗi tải dữ liệu";
-                TenLop = "Lỗi tải dữ liệu";
-            }
-        }
-
         private static string Esc(string? s) => (s ?? string.Empty).Replace("'", "''");
-    }
+    } 
 }
